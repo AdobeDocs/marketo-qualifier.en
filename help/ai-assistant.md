@@ -44,13 +44,66 @@ AI Chat can use these sources:
 
 ## Use AI Chat
 
-Use AI Chat for these tasks:
+Use AI Chat for these types of tasks:
 
 * **Research and summarize**: Ask for a summary of an account, a buying group, or a prospect's recent engagement.
 * **Build positioning**: Ask the assistant to position your solution for a specific account before a meeting.
 * **Draft and refine outreach**: Ask it to write or rewrite an email. Specify the tone, length, language, and whether to include emojis.
 * **Get recommendations**: Ask which prospects or accounts to prioritize, or request a goal or cadence for a new Outbound Workflow.
 * **Find contact details**: Ask the assistant to enrich a prospect with more contact and background information.
+
+## Ask AI Chat across your connected data
+
+AI Chat can answer questions across your Sales Qualifier, CRM, [!DNL Marketo], [!DNL Adobe Journey Optimizer B2B Edition], and company intelligence data. Ask a question in plain language to look up information or pull context. AI Chat reads and reports on your data; it does not create, edit, or launch anything.
+
+Here are some sample prompts. The more specific you are in your prompt, the more focused the results will be.
+
+Prospects and accounts:
+
+* "Find prospects with engagement status New."
+* "Research the company Adobe."
+* "Give me the full profile for a prospect."
+* "Show outbound performance for the last 30 days."
+* "List booked meetings from the last 30 days."
+
+Knowledge Center:
+
+* "What collateral do we have on handling pricing objections?"
+* "What are our key differentiators against competitors?"
+* "List documents in the Knowledge Center."
+* "Summarize a document."
+
+CRM:
+
+* "List open opportunities."
+* "List the first five leads with name and email."
+* "Show sales activities for a lead or account."
+
+[!DNL Marketo]:
+
+* "Browse my smart campaigns."
+* "Get the smart list named 'Acquired.'"
+* "Browse my programs, or get a program by name."
+* "List [!DNL Marketo] activity types."
+
+[!DNL Adobe Journey Optimizer B2B Edition]:
+
+* "How many journeys do I have?"
+* "How is my audience segmented by persona?"
+* "What landing pages exist in my account?"
+* "Which lead fields feed into scoring?"
+
+Company intelligence:
+
+* "What technologies does a company use?"
+* "Show recent news for a company."
+* "Find companies similar to a given company."
+* "List open job openings for a company."
+
+### Current scope and limits
+
+* AI Chat reads and reports on your data. It does not create, edit, or launch anything. For example, it does not create a program, launch a campaign, or edit a list.
+* AI Chat looks up information; it is not a reporting tool. It does not build [!DNL Marketo]-style analytics or trends over time, such as email health for the quarter or a list of leads created in the last 10 days. Use native [!DNL Marketo] reporting for these tasks.
 
 ## Ground answers in your playbook
 
