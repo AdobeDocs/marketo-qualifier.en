@@ -25,15 +25,15 @@ These controls apply across both views and all tabs:
 
 ## Organization performance
 
-**[!UICONTROL Organization Performance]** reports on outbound activity and results across the team. It has three tabs: **[!UICONTROL Overview]**, **[!UICONTROL Emails]**, and **[!UICONTROL Tasks]**.
+**[!UICONTROL Organization Performance]** Reports on outbound activity and results across the team. It has three tabs: **[!UICONTROL Overview]**, **[!UICONTROL Emails]**, and **[!UICONTROL Tasks]**.
 
 ### Overview tab
 
-The **[!UICONTROL Overview]** tab summarizes outbound results at a glance. Click on any of the boxes to display the chart with that information.
+The **[!UICONTROL Overview]** tab summarizes outbound results. Click on any of the boxes to display the chart with that information.
 
 * **Tiles**: Pipeline, email engagement, and manual activity, each with a trend change against the previous period.
 * **Performance trend chart**: Outbound performance over the selected time period.
-* **[!UICONTROL Team Activity]** table: Activity broken out by representative.
+* **[!UICONTROL Team Activity]** table: Activity categorized by representative.
 * **Total prospects**: The total number of prospects, not only active ones, so total outbound volume is not undercounted.
 
 ### Emails tab
@@ -58,9 +58,9 @@ The **[!UICONTROL Tasks]** tab reports on manual outreach:
 
 **[!UICONTROL Campaign Performance]** reports on outbound results by Outbound Workflow campaign:
 
-* **KPI tiles**: Active prospects, open rate, click rate, reply rate, and meetings booked. Open and click rate are shown by default so that performance is comparable across campaigns of different volume. Select the toggle to view raw counts instead.
+* **KPI tiles**: Active prospects, open rate, click rate, reply rate, and meetings booked. The system shows open and click rate by default so that performance is comparable across campaigns of different volume. Select the toggle to view raw counts instead.
 * **Campaign metrics trend chart**: Campaign KPIs over the selected time period.
-* **[!UICONTROL Campaigns]** table: Email, meeting, call, and LinkedIn message activity for each campaign. Expand a campaign row to see representative-level detail for that campaign.
+* **[!UICONTROL Campaigns]** table: Email, meeting, call, and LinkedIn message activity for each campaign. To see representative-level detail for a campaign, expand its row.
 
 See [Meeting booking](outbound-workflows.md#meeting-booking) for how bookings are generated.
 

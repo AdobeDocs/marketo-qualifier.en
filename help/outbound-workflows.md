@@ -89,7 +89,7 @@ After you configure targeting, AI analyzes the goal and targeting criteria, defi
 
 ![Touchpoints](assets/create-workflow-touchpoints.png){width="800" zoomable="yes"}
 
-Expand an email touchpoint to read its prompt. The prompt guides the AI as it writes each prospect's email, including the tone, length, focus, and call to action.
+To read its prompt, expand an email touchpoint. The prompt guides the AI as it writes each prospect's email, including tone, length, focus, and call to action.
 
 Typing a forward slash `/` brings up the list of defined tokens you can use to personalize the email.
 
@@ -131,7 +131,7 @@ The **[!UICONTROL Settings]** step controls how the Outbound Workflow runs.
 
 To revert the send window, time zone, days, follow-up and out-of-office rules, visibility, and suggestion cadence back to their defaults, turn on **[!UICONTROL Reset to default settings]**. The Outbound Workflow name is left unchanged.
 
-The opt-out footer is configured globally by an administrator and applies to outbound emails independently of the Outbound Workflow settings. See [Configure global email opt-out](integrations.md#configure-global-email-opt-out).
+An administrator configures the opt-out footer globally, which applies to outbound emails independently of the Outbound Workflow settings. See [Configure global email opt-out](integrations.md#configure-global-email-opt-out).
 
 ### Step 5: Add prospects and start email generation
 
@@ -151,7 +151,7 @@ For each prospect, the AI combines the touchpoint prompt with person and account
 
 Generated emails use any additional data saved against a prospect, including [custom fields imported with the prospect](prospects.md#build-your-prospect-list), so drafts are more relevant. There is no fixed list of supported fields, and new or custom fields work without extra setup. The AI uses this data when it is relevant; if a prospect has no extra data, email generation works as before.
 
-Emails can also be generated natively in the prospect's language, with correct greetings, natural phrasing, and the right business tone. Supported languages include French, German, Spanish, and more.
+Emails can also be generated in the prospect's language, with correct greetings, natural phrasing, and appropriate business tone. Supported languages include French, German, Spanish, and more.
 
 ## Review and refine generated emails
 
@@ -200,7 +200,7 @@ Approval activates the cadence for a prospect. The system does not send emails t
 1. In the left prospect list, select the prospects whose emails you have reviewed and are ready to send.
 1. Select **[!UICONTROL Approve and enroll prospects]** in the lower-right corner.
 
-Approved emails are sent according to the Outbound Workflow's selected days, send window, active-hours option, and time-zone setting. A touchpoint with a zero delay sends with no wait; each other touchpoint follows its configured delay. Unapproved prospects remain in **[!UICONTROL Ready for Review]**.
+Approved emails are sent according to the Outbound Workflow's selected days, send window, active-hours option, and time-zone setting. A touchpoint with zero delay sends immediately; every other touchpoint follows its configured delay. Unapproved prospects remain in **[!UICONTROL Ready for Review]**.
 
 ## Share an Outbound Workflow
 
@@ -210,7 +210,7 @@ Each Outbound Workflow has a **[!UICONTROL Permissions]** setting. Outbound Work
 >
 >Sharing is permanent. After an Outbound Workflow is set to **[!UICONTROL Shared with everyone]**, it cannot be changed back to **[!UICONTROL Private]**.
 
-On a shared Outbound Workflow, teammates can enroll their own prospects. Each person can manage or pause only the prospects that they enrolled, including when using bulk actions. The Outbound Workflow owner alone can edit plan-level settings, including the schedule, time zone, cadence, and other settings. These settings are read-only for teammates.
+On a shared Outbound Workflow, teammates can enroll their own prospects. Each person can manage or pause only the prospects that they enrolled, including when using bulk actions. The Outbound Workflow owner alone can edit plan-level settings, including schedule, time zone, and cadence. These settings are read-only for teammates.
 
 Use these filters to keep shared Outbound Workflows and results focused:
 

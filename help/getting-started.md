@@ -48,7 +48,7 @@ Users must belong to the `Sales Qualifier` user group to access the application.
 
 These steps are done in the Adobe Admin Console.
 
-1. From the nine-dot app switcher, select **[!UICONTROL Admin Console]**.
+1. From the app switcher, select **[!UICONTROL Admin Console]**.
 1. Select **[!UICONTROL Users]** > **[!UICONTROL User groups]** > **[!UICONTROL New user group]**.
 1. Enter `Sales Qualifier` for the group name and select **[!UICONTROL Save]**.
 1. Open **[!UICONTROL Assigned product profiles]** and select **[!UICONTROL Assign profile]**.
@@ -73,7 +73,7 @@ You can also create an optional `Sales Qualifier BDR managers` group. Members of
 
 ## Connect your CRM
 
-Sales Qualifier connects to Salesforce or Microsoft Dynamics 365 to give BDRs a unified view of users, leads, contacts, accounts, opportunities, owner mappings, and related activities. The initial connection requires read-only access to this CRM data. Work with your CRM administrator to prepare credentials before you connect Sales Qualifier. See [Integrations](integrations.md) for integration details.
+Sales Qualifier connects to Salesforce or Microsoft Dynamics 365 to give BDRs a unified view of users, leads, contacts, accounts, opportunities, owner mappings, and related activities. The initial connection requires read-only access to this CRM data. To prepare credentials before you connect Sales Qualifier, work with your CRM administrator. See [Integrations](integrations.md) for integration details.
 
 >[!PREREQUISITES]
 >
@@ -94,7 +94,7 @@ A Salesforce system administrator creates an external client app (also called a 
 >* Modify All Data
 >* Manage Connected Apps
 >
->Without _Manage Connected Apps_, the administrator cannot view the client ID and client secret.
+>The administrator requires _Manage Connected Apps_ to view the client ID and client secret.
 
 1. In Salesforce, go to **[!UICONTROL Setup]** > **[!UICONTROL App Manager]** and select **[!UICONTROL New Connected App]** or **[!UICONTROL New External Client App]**.
 1. Enter an application name and administrative contact email.
@@ -119,7 +119,7 @@ A Salesforce system administrator creates an external client app (also called a 
    * Callback URL
    * Salesforce instance URL
 
-Steps may be slightly different than as described here. Refer to [Salesforce documentation](https://help.salesforce.com/s/) for more information.
+Steps are slightly different than described here. Refer to [Salesforce documentation](https://help.salesforce.com/s/?language=en_US) for more information.
 
 ### Find your Salesforce instance URL
 
@@ -143,7 +143,7 @@ A Microsoft Dynamics 365 or Azure administrator registers an application and add
 1. Select the registered Microsoft Entra application.
 1. Assign a security role that grants read access to leads, contacts, accounts, opportunities, and activities.
 
-   A security role is required. Without one, the application cannot access Dynamics data.
+   A security role is required. A security role is required for the application to access Dynamics data.
 
 1. Collect the client ID, client secret, tenant ID, and Dynamics instance URL. Use the canonical URL form `https://{{mydomain}}.crm.dynamics.com`.
 

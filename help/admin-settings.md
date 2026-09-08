@@ -92,6 +92,8 @@ Only CRM-compatible values are written, one failed field does not block the othe
 
 ### Set up CRM Sync Rules
 
+To set up CRM Sync Rules:
+
 1. In the left navigation, expand **[!UICONTROL Administration]** and select **[!UICONTROL Admin Settings]** > **[!UICONTROL CRM connections]**.
 1. Select **[!UICONTROL Manage]** for the connected CRM, then select **[!UICONTROL Sync Rules]**.
 1. Choose the target CRM entity and fields, map them to the workflow moments above, and turn on the toggle.
