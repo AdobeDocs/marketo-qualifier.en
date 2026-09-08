@@ -34,12 +34,13 @@ The **[!UICONTROL Overview]** tab summarizes outbound results at a glance. Click
 * **Tiles**: Pipeline, email engagement, and manual activity, each with a trend change against the previous period.
 * **Performance trend chart**: Outbound performance over the selected time period.
 * **[!UICONTROL Team Activity]** table: Activity broken out by representative.
+* **Total prospects**: The total number of prospects, not only active ones, so total outbound volume is not undercounted.
 
 ### Emails tab
 
 The **[!UICONTROL Emails]** tab reports on email volume and effectiveness:
 
-* **Tiles**: Emails sent, opened, clicked, and replied to.
+* **Tiles**: Open rate and click rate, shown by default so that performance is comparable across campaigns of different volume. Select the toggle to view raw counts of emails sent, opened, clicked, and replied to instead.
 * **Weekly email trend chart**: Email activity by week.
 * Per-representative email performance table.
 
@@ -57,7 +58,7 @@ The **[!UICONTROL Tasks]** tab reports on manual outreach:
 
 **[!UICONTROL Campaign Performance]** reports on outbound results by Outbound Workflow campaign:
 
-* **KPI tiles**: Active prospects, open rate, click rate, reply rate, and meetings booked.
+* **KPI tiles**: Active prospects, open rate, click rate, reply rate, and meetings booked. Open and click rate are shown by default so that performance is comparable across campaigns of different volume. Select the toggle to view raw counts instead.
 * **Campaign metrics trend chart**: Campaign KPIs over the selected time period.
 * **[!UICONTROL Campaigns]** table: Email, meeting, call, and LinkedIn message activity for each campaign. Expand a campaign row to see representative-level detail for that campaign.
 

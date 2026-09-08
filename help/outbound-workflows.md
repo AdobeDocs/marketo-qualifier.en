@@ -57,6 +57,8 @@ The Outbound Workflow wizard has five steps: **[!UICONTROL Goal]**, **[!UICONTRO
 1. In the left navigation, select **[!UICONTROL Outbound Workflows]**.
 1. On the **[!UICONTROL Browse]** tab, select **[!UICONTROL + Create Outbound Workflow]** in the upper-right corner.
 
+Administrators can assign the Outbound Workflow to a teammate instead of themselves. Before launching the workflow, select **[!UICONTROL Assign User]** from the dropdown and choose the teammate.
+
 ### Step 1: Define your goal
 
 The goal defines the intended outcome and guides targeting, cadence, and email generation.
@@ -127,6 +129,8 @@ The **[!UICONTROL Settings]** step controls how the Outbound Workflow runs.
 1. Under **[!UICONTROL Permissions]**, keep **[!UICONTROL Private]** (the default) or select **[!UICONTROL Shared with everyone]**. For details, see [Share an Outbound Workflow](#share-an-outbound-workflow).
 1. Select **[!UICONTROL Save and add prospects]**.
 
+To revert the send window, time zone, days, follow-up and out-of-office rules, visibility, and suggestion cadence back to their defaults, turn on **[!UICONTROL Reset to default settings]**. The Outbound Workflow name is left unchanged.
+
 The opt-out footer is configured globally by an administrator and applies to outbound emails independently of the Outbound Workflow settings. See [Configure global email opt-out](integrations.md#configure-global-email-opt-out).
 
 ### Step 5: Add prospects and start email generation
@@ -144,6 +148,10 @@ Saving opens the prospect selection view with the targeting filters from step 2 
 AI generates a personalized email for each selected prospect and email touchpoint. Phone and LinkedIn InMail touchpoints remain scheduled steps. To continue working during generation, select **[!UICONTROL Notify when ready]**.
 
 For each prospect, the AI combines the touchpoint prompt with person and account data, engagement history, and recent news to produce a subject line and body.
+
+Generated emails use any additional data saved against a prospect, including [custom fields imported with the prospect](prospects.md#build-your-prospect-list), so drafts are more relevant. There is no fixed list of supported fields, and new or custom fields work without extra setup. The AI uses this data when it is relevant; if a prospect has no extra data, email generation works as before.
+
+Emails can also be generated natively in the prospect's language, with correct greetings, natural phrasing, and the right business tone. Supported languages include French, German, Spanish, and more.
 
 ## Review and refine generated emails
 

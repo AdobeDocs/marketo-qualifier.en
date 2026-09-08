@@ -46,6 +46,7 @@ To add prospects that do not come from your CRM:
 
    * For a CSV import, upload a CSV in the `firstname,email` format.
      First name and email are required. Last name is optional. The CSV template does not include the CRM lead ID column, but you can add the column and its values to the file before import. If the import fails, review the error message for the fields or values to correct, then upload the file again.
+     Map any custom or additional CSV fields, not only the standard ones. Sales Qualifier saves these values to each prospect and makes them available later, including for [email generation](outbound-workflows.md#step-5-add-prospects-and-start-email-generation).
    * To add a person manually, enter their details in the form.
 
 1. Select **[!UICONTROL Save]**.
@@ -86,6 +87,13 @@ Select a prospect to open their profile. Review the signals that matter before y
 * **Activity list**—A chronological list of activities and recent behavior.
 * **Timeline view**—A visual timeline of engagement across channels.
 * **Viewed content**—Web pages and assets that the prospect viewed. Select an item to open it.
+
+### Generate meeting prep
+
+In addition to the standing AI person summary, you can generate meeting prep tailored to a specific upcoming call from the **[!UICONTROL Meeting research]** tab, next to **[!UICONTROL Account research]**.
+
+* **Goal-based**—If the prospect is enrolled in a running Outbound Workflow, select it. The prep aligns to that Outbound Workflow's goal, such as booking a meeting, a product pitch, an event invitation, or re-engaging the prospect.
+* **Custom prompt**—Enter what you want to prepare for, for example `Focus on renewal risk` or `Prepare for a technical deep dive with their IT lead`. The prep matches your prompt. The custom prompt option is available whenever the prospect is not in a running Outbound Workflow.
 
 >[!MORELIKETHIS]
 >

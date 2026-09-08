@@ -72,6 +72,32 @@ Mapped fields appear in the corresponding areas of Sales Qualifier:
 
 When activity sync is off, Sales Qualifier continues to use inbound CRM data but does not synchronize outreach activities to your CRM or Marketo.
 
+## Configure CRM Sync Rules
+
+Sales Qualifier can write lead status updates back to Salesforce and Microsoft Dynamics automatically as a prospect moves through an Outbound Workflow, so representatives no longer update the CRM by hand.
+
+### What CRM Sync Rules do
+
+An update can target the **[!UICONTROL Lead]**, **[!UICONTROL Contact]**, **[!UICONTROL Account]**, or **[!UICONTROL Opportunity]** record, not only the lead.
+
+Updates fire on these Outbound Workflow moments:
+
+* Added to a workflow, replied, or meeting booked
+* Removed by a representative or workflow completed with no reply
+* Opted out or email bounced
+
+Field values can be personalized with dynamic tokens so that the CRM update reflects the prospect's actual journey rather than a static value. Tokens are available for details such as the representative's name, the Outbound Workflow name, and the meeting date and time.
+
+Only CRM-compatible values are written, one failed field does not block the others, and temporary issues retry automatically. Every update is tracked so that you can see what synced and what needs attention.
+
+### Set up CRM Sync Rules
+
+1. In the left navigation, expand **[!UICONTROL Administration]** and select **[!UICONTROL Admin Settings]** > **[!UICONTROL CRM connections]**.
+1. Select **[!UICONTROL Manage]** for the connected CRM, then select **[!UICONTROL Sync Rules]**.
+1. Choose the target CRM entity and fields, map them to the workflow moments above, and turn on the toggle.
+
+With CRM Sync Rules configured, sales teams see accurate, personalized, up-to-date status across leads, contacts, accounts, and opportunities at every stage, with less data lag and manual work.
+
 ## Build a Knowledge Center playbook {#knowledge-center}
 
 The **[!UICONTROL Knowledge Center]** gives the Account Qualification Agent (AQA) access to your sales materials. Sales Qualifier uses these materials to generate research, qualification insights, and outreach that reflect how your organization sells. Only administrators can build and manage the playbook.
