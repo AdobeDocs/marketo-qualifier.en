@@ -1,6 +1,6 @@
 ---
 title: Manage integrations
-description: Learn how to connect Outlook, manage CRM connections, map inbound fields, sync activities, and configure global email opt-out in Sales Qualifier.
+description: Learn how to connect Outlook, manage CRM connections, map inbound fields, sync activities, and configure global email opt-out in Adobe Marketo Qualifier.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User, Admin
 product_v2:
@@ -22,13 +22,13 @@ topic_v2:
 
 # Integrations
 
-Connect Outlook to send emails, recognize prospect replies, and schedule meetings. To make leads, contacts, accounts, opportunities, activities, and owners available to the Account Qualification Agent (AQA) and Outbound Workflows, you can also connect Sales Qualifier to Salesforce or Microsoft Dynamics 365. Sales Qualifier reads CRM data, can write outreach activities and opt-out status back to the CRM, and can synchronize outreach activities to Marketo. It does not otherwise modify CRM records.
+Connect Outlook to send emails, recognize prospect replies, and schedule meetings. To make leads, contacts, accounts, opportunities, activities, and owners available to the Account Qualification Agent (AQA) and Outbound Workflows, you can also connect Adobe Marketo Qualifier to Salesforce or Microsoft Dynamics 365. Marketo Qualifier reads CRM data, can write outreach activities and opt-out status back to the CRM, and can synchronize outreach activities to Marketo. It does not otherwise modify CRM records.
 
 This article explains how to connect Outlook, manage a CRM connection, map fields, sync activities, and configure email opt-out. To connect a CRM for the first time, see [Get started](getting-started.md#connect-your-crm).
 
 >[!IMPORTANT]
 >
->The Outlook connection is per representative. The CRM and compliance settings described later in this article apply to the entire organization. To access those organization-wide settings, you must belong to the `Sales Qualifier` and `Sales Qualifier Admins` user groups. Standard users can use the configured CRM data and filters but cannot change the settings.
+>The Outlook connection is per representative. The CRM and compliance settings described later in this article apply to the entire organization. To access those organization-wide settings, you must belong to the `Marketo Qualifier` and `Marketo Qualifier Admins` user groups. Standard users can use the configured CRM data and filters but cannot change the settings.
 
 ## Connect Outlook
 
@@ -38,9 +38,9 @@ Each representative connects their own Outlook account:
 1. Sign in with your Microsoft account.
 1. Review and approve the requested access.
 
-The connection lets Sales Qualifier send from your mailbox, recognize when a prospect replies, and schedule meetings on your calendar.
+The connection lets Marketo Qualifier send from your mailbox, recognize when a prospect replies, and schedule meetings on your calendar.
 
-When you connect, you approve access that allows Sales Qualifier to:
+When you connect, you approve access that allows Marketo Qualifier to:
 
 * Recognize replies from prospects.
 * Create and send email on your behalf.
@@ -52,11 +52,11 @@ When you connect, you approve access that allows Sales Qualifier to:
 
 By default, no administrator action is required. Each representative approves access for themselves when they connect Outlook.
 
-If your organization has turned off user consent to third-party apps in Microsoft 365 or Microsoft Entra, a Microsoft 365 or Entra administrator must approve Sales Qualifier once for the entire organization. The administrator completes this approval before representatives connect their Outlook accounts. After the organization-wide approval, each representative can connect their account.
+If your organization has turned off user consent to third-party apps in Microsoft 365 or Microsoft Entra, a Microsoft 365 or Entra administrator must approve Marketo Qualifier once for the entire organization. The administrator completes this approval before representatives connect their Outlook accounts. After the organization-wide approval, each representative can connect their account.
 
-### How Sales Qualifier handles your mailbox data
+### How Marketo Qualifier handles your mailbox data
 
-Sales Qualifier reads only replies to emails that it sent, not the rest of your inbox. It does not store incoming attachments or emails outside an active engagement. Stored sign-in credentials are encrypted.
+Marketo Qualifier reads only replies to emails that it sent, not the rest of your inbox. It does not store incoming attachments or emails outside an active engagement. Stored sign-in credentials are encrypted.
 
 ## Open CRM settings
 
@@ -106,11 +106,11 @@ An unconfigured card shows **[!UICONTROL Connect]**. A configured card shows **[
 
 1. Select **[!UICONTROL Connect]** (or **[!UICONTROL Save]** when editing).
 
-If Sales Qualifier rejects the credentials, it identifies the cause, such as invalid or expired credentials, missing permissions, or an unrecognized Dynamics tenant. Correct the value and try again.
+If Marketo Qualifier rejects the credentials, it identifies the cause, such as invalid or expired credentials, missing permissions, or an unrecognized Dynamics tenant. Correct the value and try again.
 
 >[!IMPORTANT]
 >
->Do not send client secrets by email. Use your organization's approved secure channel to share credentials with whoever enters them in Sales Qualifier.
+>Do not send client secrets by email. Use your organization's approved secure channel to share credentials with whoever enters them in Marketo Qualifier.
 
 ### Disconnect a connection
 
@@ -123,7 +123,7 @@ If Sales Qualifier rejects the credentials, it identifies the cause, such as inv
 
 ## Map CRM fields (inbound mapping) {#map-crm-fields-inbound-mapping}
 
-Inbound mapping controls which CRM fields Sales Qualifier imports and where they appear. Fields are grouped into sections, and each section belongs to an entity type.
+Inbound mapping controls which CRM fields Marketo Qualifier imports and where they appear. Fields are grouped into sections, and each section belongs to an entity type.
 
 ![Inbound mapping](assets/crm-conn-salesforce.png){width="800" zoomable="yes"}
 
@@ -155,23 +155,23 @@ To change a section later, select **[!UICONTROL Edit]** on the section card. To 
 
 ## Configure activity sync (outbound mapping) {#configure-activity-sync-outbound-mapping}
 
-Activity sync writes Sales Qualifier outreach activities to your CRM and Marketo. Email sent, opened, clicked, and replied activities include the Outbound Workflow name. Representatives can see the activities in the CRM, while marketing teams can use the Marketo activities in lead scoring and engagement timelines.
+Activity sync writes Marketo Qualifier outreach activities to your CRM and Marketo. Email sent, opened, clicked, and replied activities include the Outbound Workflow name. Representatives can see the activities in the CRM, while marketing teams can use the Marketo activities in lead scoring and engagement timelines.
 
 1. On the connected CRM card, select **[!UICONTROL Manage]**.
 1. Open the **[!UICONTROL Outbound mapping]** tab.
 1. Turn on **[!UICONTROL Activity sync]**. The setting saves immediately.
 
-When activity sync is off, Sales Qualifier continues to use inbound CRM data but does not synchronize outreach activities to the CRM or Marketo.
+When activity sync is off, Marketo Qualifier continues to use inbound CRM data but does not synchronize outreach activities to the CRM or Marketo.
 
 >[!NOTE]
 >
->Activity sync requires write access in your CRM. If the required permission is missing, the switch is disabled and Sales Qualifier prompts you to contact your administrator. To grant activity write access, work with your CRM administrator.
+>Activity sync requires write access in your CRM. If the required permission is missing, the switch is disabled and Marketo Qualifier prompts you to contact your administrator. To grant activity write access, work with your CRM administrator.
 
 ## Set up Marketing Highlights {#turn-on-marketo-engagement-filtering}
 
 Marketing Highlights lets representatives find and prioritize prospects by their live [!DNL Marketo] engagement, such as email opens and clicks. See [Filter by Marketing Highlights](prospects.md#filter-by-marketing-highlights).
 
-An administrator completes a one-time setup that connects [!DNL Marketo] to Sales Qualifier for the relevant org and sandbox. The setup covers creating API credentials in the Adobe Developer Console, configuring a webhook in [!DNL Marketo], and adding that webhook to a trigger Smart Campaign. See [Set up Marketing Highlights](marketing-highlights-setup.md) for complete steps.
+An administrator completes a one-time setup that connects [!DNL Marketo] to Marketo Qualifier for the relevant org and sandbox. The setup covers creating API credentials in the Adobe Developer Console, configuring a webhook in [!DNL Marketo], and adding that webhook to a trigger Smart Campaign. See [Set up Marketing Highlights](marketing-highlights-setup.md) for complete steps.
 
 Marketing Highlights is available in all production regions: North America, EMEA, and Australia.
 
@@ -188,16 +188,16 @@ The opt-out setting appends an unsubscribe footer to every outbound email. Stand
 
 The setting and template save automatically.
 
-When a prospect selects the link, Sales Qualifier stops sending emails to that prospect and syncs the opt-out status to the connected CRM.
+When a prospect selects the link, Marketo Qualifier stops sending emails to that prospect and syncs the opt-out status to the connected CRM.
 
 ## CRM access scope
 
-Sales Qualifier reads the CRM entities it needs and writes back only a defined set of data:
+Marketo Qualifier reads the CRM entities it needs and writes back only a defined set of data:
 
 * **Read**—Users, contacts, owner mappings, leads, accounts, opportunities, and activities.
 * **Write**—Logged outreach activities (when [activity sync](#configure-activity-sync-outbound-mapping) is on) and opt-out status.
 
-Your CRM administrator prepares API access in Salesforce or Dynamics. A Sales Qualifier administrator then connects the CRM, maps inbound fields, and chooses whether to synchronize activities. The initial connection requires read-only access. Activity synchronization and opt-out write-back require the corresponding write access.
+Your CRM administrator prepares API access in Salesforce or Dynamics. A Marketo Qualifier administrator then connects the CRM, maps inbound fields, and chooses whether to synchronize activities. The initial connection requires read-only access. Activity synchronization and opt-out write-back require the corresponding write access.
 
 >[!MORELIKETHIS]
 >

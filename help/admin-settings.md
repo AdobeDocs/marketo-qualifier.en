@@ -1,6 +1,6 @@
 ---
 title: Admin settings
-description: Learn how to manage CRM fields, activity synchronization, email opt-out, and other Sales Qualifier administration settings.
+description: Learn how to manage CRM fields, activity synchronization, email opt-out, and other Adobe Marketo Qualifier administration settings.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 TQID: 'https://experienceleague.adobe.com/vbtO6I67ZEaZz3oio9InNErvq5D0wjbRxyDZpTq8Lzo'
@@ -20,25 +20,25 @@ internal-label: Administration
 
 Use **[!UICONTROL Admin Settings]** to configure CRM integrations, manage the Knowledge Center, and configure email opt-out.
 
-Sales Qualifier connects to Salesforce or Microsoft Dynamics 365. The connection gives the Account Qualification Agent (AQA) a consistent view of leads, accounts, contacts, activities, and owners. Sales Qualifier can also write outreach activities and opt-out status back to the CRM and synchronize outreach activities to Marketo.
+Adobe Marketo Qualifier connects to Salesforce or Microsoft Dynamics 365. The connection gives the Account Qualification Agent (AQA) a consistent view of leads, accounts, contacts, activities, and owners. Marketo Qualifier can also write outreach activities and opt-out status back to the CRM and synchronize outreach activities to Marketo.
 
 To configure CRM connections, field mapping, and activity synchronization, go to **[!UICONTROL Administration]** > **[!UICONTROL Admin Settings]** > **[!UICONTROL CRM connections]**. Standard users can use the configured CRM data and filters but cannot change these settings. To connect a CRM for the first time, see [Get started](getting-started.md#connect-your-crm).
 
 >[!IMPORTANT]
 >
->Accessing **[!UICONTROL Admin Settings]** requires membership in both the `Sales Qualifier` and `Sales Qualifier Admins` user groups.
+>Accessing **[!UICONTROL Admin Settings]** requires membership in both the `Marketo Qualifier` and `Marketo Qualifier Admins` user groups.
 
 ## CRM MCP and the embedded plugin
 
-Sales Qualifier works with your CRM in these ways:
+Marketo Qualifier works with your CRM in these ways:
 
 * **CRM MCP queries**—The Account Qualification Agent queries live CRM data so that answers and insights reflect the current state of your records.
-* **Embedded plugin**—The CRM plugin displays [!DNL Marketo Sales Insights] (MSI) insights and agentic data in your CRM. Use the plugin to add a prospect to Sales Qualifier.
+* **Embedded plugin**—The CRM plugin displays [!DNL Marketo Sales Insights] (MSI) insights and agentic data in your CRM. Use the plugin to add a prospect to Marketo Qualifier.
 * **Activity synchronization**—When an administrator turns on **[!UICONTROL Activity sync]**, outreach activities synchronize to the CRM and Marketo.
 
 ## CRM access scope
 
-Sales Qualifier reads users, contacts, owner mappings, leads, accounts, opportunities, and activities from the CRM. It writes only logged outreach activities and opt-out status to the CRM, and it synchronizes outreach activities to Marketo. Your CRM administrator prepares API access in Salesforce or Dynamics. A Sales Qualifier administrator then connects the CRM, maps inbound fields, and chooses whether to synchronize activities.
+Marketo Qualifier reads users, contacts, owner mappings, leads, accounts, opportunities, and activities from the CRM. It writes only logged outreach activities and opt-out status to the CRM, and it synchronizes outreach activities to Marketo. Your CRM administrator prepares API access in Salesforce or Dynamics. A Marketo Qualifier administrator then connects the CRM, maps inbound fields, and chooses whether to synchronize activities.
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ Sales Qualifier reads users, contacts, owner mappings, leads, accounts, opportun
 
 ## Map CRM fields (inbound mapping)
 
-After the CRM is connected, select **[!UICONTROL Manage]** for the connection and open **[!UICONTROL Inbound mapping]**. Inbound mapping controls which CRM fields Sales Qualifier pulls into the application.
+After the CRM is connected, select **[!UICONTROL Manage]** for the connection and open **[!UICONTROL Inbound mapping]**. Inbound mapping controls which CRM fields Marketo Qualifier pulls into the application.
 
 1. Select **[!UICONTROL Add section]**.
 1. Enter a section name and description.
@@ -58,7 +58,7 @@ After the CRM is connected, select **[!UICONTROL Manage]** for the connection an
 1. Turn on **[!UICONTROL Filterable]** for each prospect, contact, or opportunity field that you want to make available as a filter on the **[!UICONTROL Prospects]** list.
 1. Preview the section and select **[!UICONTROL Add]**.
 
-Mapped fields appear in the corresponding areas of Sales Qualifier:
+Mapped fields appear in the corresponding areas of Marketo Qualifier:
 
 * Prospect fields appear on the **[!UICONTROL Person]** tab.
 * Account fields appear on the **[!UICONTROL Account]** tab.
@@ -68,13 +68,13 @@ Mapped fields appear in the corresponding areas of Sales Qualifier:
 
 1. From **[!UICONTROL CRM connections]**, select **[!UICONTROL Manage]** for the connected CRM.
 1. Open **[!UICONTROL Outbound mapping]**.
-1. Turn on **[!UICONTROL Activity sync]** to sync Sales Qualifier outreach activities back to the CRM and Marketo.
+1. Turn on **[!UICONTROL Activity sync]** to sync Marketo Qualifier outreach activities back to the CRM and Marketo.
 
-When activity sync is off, Sales Qualifier continues to use inbound CRM data but does not synchronize outreach activities to your CRM or Marketo.
+When activity sync is off, Marketo Qualifier continues to use inbound CRM data but does not synchronize outreach activities to your CRM or Marketo.
 
 ## Configure CRM Sync Rules
 
-Sales Qualifier can write lead status updates back to Salesforce and Microsoft Dynamics automatically as a prospect moves through an Outbound Workflow, so representatives no longer update the CRM by hand.
+Marketo Qualifier can write lead status updates back to Salesforce and Microsoft Dynamics automatically as a prospect moves through an Outbound Workflow, so representatives no longer update the CRM by hand.
 
 ### What CRM Sync Rules do
 
@@ -102,13 +102,13 @@ With CRM Sync Rules configured, sales teams see accurate, personalized, up-to-da
 
 ## Build a Knowledge Center playbook {#knowledge-center}
 
-The **[!UICONTROL Knowledge Center]** gives the Account Qualification Agent (AQA) access to your sales materials. Sales Qualifier uses these materials to generate research, qualification insights, and outreach that reflect how your organization sells. Only administrators can build and manage the playbook.
+The **[!UICONTROL Knowledge Center]** gives the Account Qualification Agent (AQA) access to your sales materials. Marketo Qualifier uses these materials to generate research, qualification insights, and outreach that reflect how your organization sells. Only administrators can build and manage the playbook.
 
 ![Knowledge Center](assets/knowledge-center.png){width="800" zoomable="yes"}
 
 1. In the left navigation, expand **[!UICONTROL Administration]**, select **[!UICONTROL Admin Settings]** and select **[!UICONTROL Knowledge Center]**
 1.  u
-1. Set the **[!UICONTROL Company name]** and **[!UICONTROL Company URL]** that Sales Qualifier uses to research your company and draft emails.
+1. Set the **[!UICONTROL Company name]** and **[!UICONTROL Company URL]** that Marketo Qualifier uses to research your company and draft emails.
 1. Upload sales plays, ideal customer profiles (ICPs), positioning guides, and other sales collateral in PDF, PPTX, or DOCX format.
 1. Select **[!UICONTROL Build Playbook]**.
 
@@ -134,7 +134,7 @@ In both cases, the generated content reflects the messaging in your playbook rat
 
 The settings save automatically.
 
-When a prospect selects the link, Sales Qualifier stops sending emails to that prospect and synchronizes the opt-out status to the connected CRM.
+When a prospect selects the link, Marketo Qualifier stops sending emails to that prospect and synchronizes the opt-out status to the connected CRM.
 
 ## Reference: sample API parameters
 

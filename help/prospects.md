@@ -1,6 +1,6 @@
 ---
-title: Prospects in Sales Qualifier
-description: Learn how to build your prospect list from CRM, imported, and manually added sources, filter prospects, and review prospect details in Sales Qualifier.
+title: Prospects in Adobe Marketo Qualifier
+description: Learn how to build your prospect list from CRM, imported, and manually added sources, filter prospects, and review prospect details in Adobe Marketo Qualifier.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/zf2H5rq1JlIT26LqLPMrm2Mq3tSIrLOiTEw6BXb1w2U'
@@ -32,9 +32,9 @@ Select **[!UICONTROL Prospects]** in the left navigation to view the leads and c
 
 The prospect list combines people from more than one source:
 
-* **CRM prospects**—Sales Qualifier automatically imports leads and contacts assigned to the connected user. See [Integrations](integrations.md).
+* **CRM prospects**—Adobe Marketo Qualifier automatically imports leads and contacts assigned to the connected user. See [Integrations](integrations.md).
 * **Imported prospects**—Prospects imported from a CSV file.
-* **Manually added prospects**—Individual prospects added in Sales Qualifier.
+* **Manually added prospects**—Individual prospects added in Marketo Qualifier.
 
 To add prospects that do not come from your CRM:
 
@@ -46,7 +46,7 @@ To add prospects that do not come from your CRM:
 
    * For a CSV import, upload a CSV in the `firstname,email` format.
      First name and email are required. Last name is optional. The CSV template does not include the CRM lead ID column, but you can add the column and its values to the file before import. If the import fails, review the error message for the fields or values to correct, then upload the file again.
-     Map any custom or additional CSV fields, not only the standard ones. Sales Qualifier saves these values to each prospect and makes them available later, including for [email generation](outbound-workflows.md#step-5-add-prospects-and-start-email-generation).
+     Map any custom or additional CSV fields, not only the standard ones. Marketo Qualifier saves these values to each prospect and makes them available later, including for [email generation](outbound-workflows.md#step-5-add-prospects-and-start-email-generation).
    * To add a person manually, enter their details in the form.
 
 1. Select **[!UICONTROL Save]**.
@@ -77,7 +77,7 @@ To filter prospects by Marketing Highlights:
 
 Each prospect shows their latest [!DNL Marketo] activity along with recent history.
 
-Marketing Highlights is available in all production regions. An administrator completes a one-time setup that connects [!DNL Marketo] to Sales Qualifier. See [Set up Marketing Highlights](integrations.md#turn-on-marketo-engagement-filtering).
+Marketing Highlights is available in all production regions. An administrator completes a one-time setup that connects [!DNL Marketo] to Marketo Qualifier. See [Set up Marketing Highlights](integrations.md#turn-on-marketo-engagement-filtering).
 
 ## Review prospect details
 

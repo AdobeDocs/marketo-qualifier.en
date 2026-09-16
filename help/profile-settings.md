@@ -1,6 +1,6 @@
 ---
 title: Configure profile settings
-description: Learn how to configure your email connection, signature, and calendar availability in Sales Qualifier profile settings.
+description: Learn how to configure your email connection, signature, and calendar availability in Adobe Marketo Qualifier profile settings.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/juP3sddkmc-nSTcTEKGWolbCwNWDgSA0yr6XK1X-w94'
@@ -62,12 +62,12 @@ If you disconnect your calendar:
 
 ## Calendar availability
 
-Your calendar availability in Sales Qualifier is based on two inputs:
+Your calendar availability in Adobe Marketo Qualifier is based on two inputs:
 
 * Your connected work calendar, such as Outlook or Gmail
 * The availability and time-slot rules in **[!UICONTROL Calendar configuration]**
 
-Sales Qualifier reads free/busy status, not event details, from the connected calendar. It combines this status with your rules to determine the time slots that prospects can book.
+Marketo Qualifier reads free/busy status, not event details, from the connected calendar. It combines this status with your rules to determine the time slots that prospects can book.
 
 You can configure:
 

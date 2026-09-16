@@ -1,6 +1,6 @@
 ---
-title: Sales Qualifier overview
-description: Learn about Sales Qualifier, an AI-driven app that automates prospect qualification, outreach, and buyer engagement for B2B sales teams.
+title: Adobe Marketo Qualifier overview
+description: Learn about Adobe Marketo Qualifier, an AI-driven app that automates prospect qualification, outreach, and buyer engagement for B2B sales teams.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/4IsAlgFBxddHCz0-CLCDXPCHI7m3motiXhgCR6MZq0k'
@@ -19,13 +19,13 @@ topic_v2:
     internal-label: Insights
 ---
 
-# Sales Qualifier
+# Adobe Marketo Qualifier
 
-Adobe Sales Qualifier is an AI-powered application that automates prospect qualification, outreach, and cross-channel buyer engagement for business development representatives (BDRs). The Account Qualification Agent analyzes your accounts and prospects, prioritizes those that are ready for the next step, and drafts personalized outreach based on your CRM data.
+Adobe Marketo Qualifier is an AI-powered application that automates prospect qualification, outreach, and cross-channel buyer engagement for business development representatives (BDRs). The Account Qualification Agent analyzes your accounts and prospects, prioritizes those that are ready for the next step, and drafts personalized outreach based on your CRM data.
 
 BDRs can use the browser and email plugins to access business intelligence directly within their CRM or Outlook.
 
-## What you can do in Sales Qualifier
+## What you can do in Marketo Qualifier
 
 * **Prioritize prospects and accounts** with AI-generated activity summaries and signal-based prioritization.
 * **Build goal-driven Outbound Workflows** in which AI proposes a cadence and drafts personalized emails for each prospect.

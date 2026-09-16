@@ -1,6 +1,6 @@
 ---
-title: Accounts in Sales Qualifier
-description: Learn how to review account intelligence in Sales Qualifier, including AI research, recent news, opportunities, and top engaged contacts, to prioritize outreach.
+title: Accounts in Adobe Marketo Qualifier
+description: Learn how to review account intelligence in Adobe Marketo Qualifier, including AI research, recent news, opportunities, and top engaged contacts, to prioritize outreach.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 product_v2:
@@ -29,7 +29,7 @@ Open an account from the profile of a prospect associated with it.
 
 ![Prospect detail page with Person and Account tabs](./assets/account-home.png){width="800" zoomable="yes"}
 
-Sales Qualifier identifies the account from the prospect's CRM record. The same account view is available from every prospect associated with that account. If Sales Qualifier cannot match an account, the tab shows _No account found_.
+Adobe Marketo Qualifier identifies the account from the prospect's CRM record. The same account view is available from every prospect associated with that account. If Marketo Qualifier cannot match an account, the tab shows _No account found_.
 
 >[!NOTE]
 >

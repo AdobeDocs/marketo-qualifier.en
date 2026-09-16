@@ -1,8 +1,8 @@
 ---
-user-guide-title: Sales Qualifier
-user-guide-description: Learn how to use Sales Qualifier to automate prospect qualification, outreach, and buyer engagement for B2B sales teams.
+user-guide-title: Adobe Marketo Qualifier
+user-guide-description: Learn how to use Adobe Marketo Qualifier to automate prospect qualification, outreach, and buyer engagement for B2B sales teams.
 ---
-# Sales Qualifier guide {#using}
+# Adobe Marketo Qualifier guide {#using}
 
 + [Overview](home.md)
 + [Release Notes](release-notes.md)

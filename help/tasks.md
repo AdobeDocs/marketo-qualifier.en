@@ -1,6 +1,6 @@
 ---
-title: Tasks in Sales Qualifier
-description: Learn how to process manual outreach tasks and review agent-suggested prospects in the Sales Qualifier task queue.
+title: Tasks in Adobe Marketo Qualifier
+description: Learn how to process manual outreach tasks and review agent-suggested prospects in the Adobe Marketo Qualifier task queue.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/MbTN1r-ARrW-XYtdIS-KZT7K1Lk-B3GihT8iXL60GrQ'
@@ -41,7 +41,7 @@ Manual tasks are tied to Outbound Workflow steps and come in three types:
 
 * **[!UICONTROL LinkedIn InMail]**—Created when a cadence reaches a LinkedIn InMail step. The work panel shows content to copy and send from LinkedIn. Expand **[!UICONTROL AI Rationale]** to review the rationale.
 
-* **[!UICONTROL Email Review]**—Created after Sales Qualifier generates a prospect's personalized emails. Select **[!UICONTROL Review emails]** to review and approve the drafts before outreach begins. See [Review and refine generated emails](outbound-workflows.md#review-and-refine-generated-emails).
+* **[!UICONTROL Email Review]**—Created after Adobe Marketo Qualifier generates a prospect's personalized emails. Select **[!UICONTROL Review emails]** to review and approve the drafts before outreach begins. See [Review and refine generated emails](outbound-workflows.md#review-and-refine-generated-emails).
 
 ![Email Review](assets/tasks-review.png)
 

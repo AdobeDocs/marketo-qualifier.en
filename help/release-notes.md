@@ -1,10 +1,10 @@
 ---
-title: Sales Qualifier Release Notes
-description: Learn what is new in Sale Qualifier.
+title: Adobe Marketo Qualifier Release Notes
+description: Learn what is new in Adobe Marketo Qualifier.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 ---
-# Sales Qualifier Release Notes
+# Adobe Marketo Qualifier Release Notes
 
 ## 09-08-2026
 
@@ -17,11 +17,11 @@ This release includes:
 * Generated emails use any additional prospect data you import and can be written natively in the prospect's language. [Learn more](outbound-workflows.md#step-5-add-prospects-and-start-email-generation).
 * Outbound Performance shows open rate and click rate by default, with a toggle for raw counts, and total prospects at the organization level. [Learn more](performance.md).
 * CRM Sync Rules automatically update CRM status as a prospect moves through an Outbound Workflow. [Learn more](admin-settings.md#configure-crm-sync-rules).
-* Ask AI Chat questions across your Sales Qualifier, CRM, [!DNL Marketo], and [!DNL Adobe Journey Optimizer B2B Edition] data. [Learn more](ai-assistant.md#ask-ai-chat-across-your-connected-data).
+* Ask AI Chat questions across your Marketo Qualifier, CRM, [!DNL Marketo], and [!DNL Adobe Journey Optimizer B2B Edition] data. [Learn more](ai-assistant.md#ask-ai-chat-across-your-connected-data).
 
 ## 08-17-2026
 
-[!DNL Sales Qualifier] is now available as a stand-alone application. It supports Marketo and Adobe Journey Optimizer B2B.
+[!DNL Marketo Qualifier] is now available as a stand-alone application. It supports Marketo and Adobe Journey Optimizer B2B.
 
 This release includes:
 
