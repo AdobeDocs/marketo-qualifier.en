@@ -1,6 +1,6 @@
 ---
 title: Review the Email Outbox
-description: Learn how to review the emails Sales Qualifier has sent on your behalf, including replies, in the Email Outbox.
+description: Learn how to review the emails Adobe Marketo Qualifier has sent on your behalf, including replies, in the Email Outbox.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 product_v2:
@@ -23,7 +23,7 @@ The page has two panels: a list of emails on the left and a reading view on the 
 
 The **[!UICONTROL All emails]** list contains one row for each sent email, with the most recent email first. Each row shows the recipient's name, subject, and sent date. An email without a subject shows _(No subject)_. Scroll to load older emails.
 
-When you open the page, Sales Qualifier selects the first email automatically so its content appears on the right.
+When you open the page, Adobe Marketo Qualifier selects the first email automatically so its content appears on the right.
 
 If you have not sent any emails, the list shows _Your outbox is empty_. After you send or schedule an email through an Outbound Workflow, it appears here.
 
@@ -35,7 +35,7 @@ Select an email in the list to open it on the right. The reading view has three 
 * **Subject and Outbound Workflow**—The subject, the name of the [Outbound Workflow](outbound-workflows.md) that sent the email, and the Outbound Workflow status. Select the Outbound Workflow name to open it.
 * **Conversation**—The sent email and any replies in a thread. Each entry identifies whether the message was sent or received and includes a timestamp.
 
-Emails render as they were sent, including personalized content. If the body of a message is not available, Sales Qualifier shows a short _Email content not available_ note in its place.
+Emails render as they were sent, including personalized content. If the body of a message is not available, Marketo Qualifier shows a short _Email content not available_ note in its place.
 
 >[!NOTE]
 >

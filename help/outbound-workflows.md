@@ -1,6 +1,6 @@
 ---
 title: Create and manage Outbound Workflows
-description: Learn how to create, share, review, and manage AI-generated Outbound Workflows in Sales Qualifier to run goal-driven outreach cadences.
+description: Learn how to create, share, review, and manage AI-generated Outbound Workflows in Adobe Marketo Qualifier to run goal-driven outreach cadences.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/n3FbuiM2zF9QSqaKx1bhBSdbsf-w7vEsEGjCQTBo3g4'
@@ -155,7 +155,7 @@ Emails can also be generated in the prospect's language, with correct greetings,
 
 ## Review and refine generated emails
 
-When generation finishes, the Outbound Workflow detail view prompts you to review the drafts. Sales Qualifier does not send email until you approve it.
+When generation finishes, the Outbound Workflow detail view prompts you to review the drafts. Adobe Marketo Qualifier does not send email until you approve it.
 
 1. In the Outbound Workflow detail view, select **[!UICONTROL Review drafts]** in the banner.
 1. The **[!UICONTROL Review touchpoints]** step has two tabs:
@@ -234,10 +234,10 @@ The [Email Outbox](email-outbox.md) lists the automated emails sent on your beha
 
 ## Meeting booking
 
-When you connect your calendar, Sales Qualifier generates a personal booking link that prospects can use to schedule time with you.
+When you connect your calendar, Marketo Qualifier generates a personal booking link that prospects can use to schedule time with you.
 
 * **Booking links**—Configure your calendar connection and availability in [Profile settings](profile-settings.md). Add the booking link to your email signature so that it appears in outbound emails.
-* **Cadence placement**—Sales Qualifier inserts your booking link at relevant points in a cadence. You can change its placement.
+* **Cadence placement**—Marketo Qualifier inserts your booking link at relevant points in a cadence. You can change its placement.
 * **Booking pause**—When a prospect books a meeting, **[!UICONTROL Meeting Booking Pause]** stops further follow-ups. See [Step 4: Configure Outbound Workflow settings](#step-4-configure-outbound-workflow-settings).
 
 Track booking outcomes on the [Outbound performance](performance.md) page.

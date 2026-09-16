@@ -1,6 +1,6 @@
 ---
 title: Use AI Chat
-description: Learn how to use AI Chat in Sales Qualifier to research accounts, draft outreach, and get answers based on your CRM, engagement, and Knowledge Center data.
+description: Learn how to use AI Chat in Adobe Marketo Qualifier to research accounts, draft outreach, and get answers based on your CRM, engagement, and Knowledge Center data.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/LHCHAk0rsNwLsKFhKMlHaLL7xkkCEAKFNDMEonb2TdQ'
@@ -20,7 +20,7 @@ topic_v2:
 
 # AI Chat
 
-AI Chat answers natural-language questions based on your sales context. Use it to research an account, prepare for a call, draft outreach, and prioritize your work without leaving Sales Qualifier.
+AI Chat answers natural-language questions based on your sales context. Use it to research an account, prepare for a call, draft outreach, and prioritize your work without leaving Adobe Marketo Qualifier.
 
 ![AI Chat button](assets/ai-chat.png){width="800" zoomable="yes"}
 
@@ -54,7 +54,7 @@ Use AI Chat for these types of tasks:
 
 ## Ask AI Chat across your connected data
 
-AI Chat can answer questions across your Sales Qualifier, CRM, [!DNL Marketo], [!DNL Adobe Journey Optimizer B2B Edition], and company intelligence data. Ask a question in plain language to look up information or pull context. AI Chat reads and reports on your data; it does not create, edit, or launch anything.
+AI Chat can answer questions across your Marketo Qualifier, CRM, [!DNL Marketo], [!DNL Adobe Journey Optimizer B2B Edition], and company intelligence data. Ask a question in plain language to look up information or pull context. AI Chat reads and reports on your data; it does not create, edit, or launch anything.
 
 Here are some sample prompts. The more specific you are in your prompt, the more focused the results will be.
 

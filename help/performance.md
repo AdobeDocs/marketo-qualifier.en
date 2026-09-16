@@ -1,6 +1,6 @@
 ---
-title: Outbound performance in Sales Qualifier
-description: Learn how to review Organization Performance and Campaign Performance reports in Sales Qualifier to track outbound activity and results.
+title: Outbound performance in Adobe Marketo Qualifier
+description: Learn how to review Organization Performance and Campaign Performance reports in Adobe Marketo Qualifier to track outbound activity and results.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/ofBw7JHKkkQaPOeUZ6rreLDAhAfineLveBeVYK-CerQ'
@@ -10,7 +10,7 @@ product_v2:
 Outbound Workflows    internal-label: Insights
 ---
 
-# Outbound performance in Sales Qualifier
+# Outbound performance in Adobe Marketo Qualifier
 
 In the left navigation, select **[!UICONTROL Outbound performance]** to track outbound activity and results across your team. The dashboard has two views: **[!UICONTROL Organization Performance]** and **[!UICONTROL Campaign Performance]**.
 
@@ -44,7 +44,7 @@ The **[!UICONTROL Emails]** tab reports on email volume and effectiveness:
 * **Weekly email trend chart**: Email activity by week.
 * Per-representative email performance table.
 
-Sales Qualifier assigns separate statuses to out-of-office replies and bounces so that you can distinguish them from prospect engagement.
+Marketo Qualifier assigns separate statuses to out-of-office replies and bounces so that you can distinguish them from prospect engagement.
 
 ### Tasks tab
 

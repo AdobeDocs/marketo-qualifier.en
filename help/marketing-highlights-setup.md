@@ -1,6 +1,6 @@
 ---
 title: Set Up Marketing Highlights
-description: Learn how to connect Marketo to Sales Qualifier so representatives can view and filter prospects by live Marketo activity in Marketing Highlights.
+description: Learn how to connect Marketo to Adobe Marketo Qualifier so representatives can view and filter prospects by live Marketo activity in Marketing Highlights.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 product_v2:
@@ -31,7 +31,7 @@ Marketing Highlights shows each prospect's live [!DNL Marketo] activity, such as
 Setup has four parts:
 
 * Part A: Create API credentials in the Adobe Developer Console.
-* Part B: Gather your Sales Qualifier endpoint and identifiers.
+* Part B: Gather your Adobe Marketo Qualifier endpoint and identifiers.
 * Part C: Configure a webhook in [!DNL Marketo Engage].
 * Part D: Add the webhook to a trigger Smart Campaign.
 
@@ -39,19 +39,19 @@ After setup is complete, users see and filter this activity on **[!UICONTROL Pro
 
 ## Part A: Create API credentials {#part-a-create-api-credentials}
 
-These credentials let [!DNL Marketo] authenticate securely to Sales Qualifier.
+These credentials let [!DNL Marketo] authenticate securely to Marketo Qualifier.
 
 To create the credentials:
 
 1. Go to [Adobe Developer Console](https://developer.adobe.com/console/) and sign in with your Adobe ID.
 1. Select **[!UICONTROL Create new project]**, or open an existing project.
-1. Select **[!UICONTROL Edit project]**, rename the project to something identifiable, such as `Sales Qualifier Marketing Highlights`, and select **[!UICONTROL Save]**.
+1. Select **[!UICONTROL Edit project]**, rename the project to something identifiable, such as `Marketo Qualifier Marketing Highlights`, and select **[!UICONTROL Save]**.
 1. Select **[!UICONTROL Add API]**, select **[!UICONTROL Experience Platform API]**, then select **[!UICONTROL Next]**.
 1. Choose **[!UICONTROL OAuth Server-to-Server]** as the authentication type, then select **[!UICONTROL Next]**.
 
-   **[!UICONTROL OAuth Server-to-Server]** lets [!DNL Marketo] call the Sales Qualifier API directly from its server, without requiring a person to sign in.
+   **[!UICONTROL OAuth Server-to-Server]** lets [!DNL Marketo] call the Marketo Qualifier API directly from its server, without requiring a person to sign in.
 
-1. Enter a credential name of 45 characters or fewer, such as `Sales Qualifier Marketing Highlights Creds`.
+1. Enter a credential name of 45 characters or fewer, such as `Marketo Qualifier Marketing Highlights Creds`.
 1. Select the product profile to associate, then select **[!UICONTROL Save configured API]**.
 1. Under **[!UICONTROL Connected credentials]**, open the **[!UICONTROL OAuth Server-to-Server]** credential. Select **[!UICONTROL Retrieve client secret]**, then copy the **[!UICONTROL Client ID]** and **[!UICONTROL Client Secret]**. You use these values in [Part C](#part-c-configure-the-marketo-webhook).
 
@@ -63,9 +63,9 @@ To create the credentials:
 
 You need three values for [Part C](#part-c-configure-the-marketo-webhook):
 
-* **Endpoint URL**—The Sales Qualifier webhook address for your region.
+* **Endpoint URL**—The Marketo Qualifier webhook address for your region.
 * **imsOrg ID**—Your organization's identifier in the Adobe Identity Management System (IMS), in the form `{ORG_ID}@AdobeOrg`.
-* **Sandbox name**—The name of your AEP sandbox exactly as it appears in the Sales Qualifier URL (the `sname` value), not the display name shown in the UI. Use the lowercase URL value, for example `prod`, not `Prod`.
+* **Sandbox name**—The name of your AEP sandbox exactly as it appears in the Marketo Qualifier URL (the `sname` value), not the display name shown in the UI. Use the lowercase URL value, for example `prod`, not `Prod`.
 
 | Region | Webhook endpoint URL |
 | --- | --- |
@@ -166,7 +166,7 @@ To create the webhook:
 
 ## Part D: Add the webhook to a trigger Smart Campaign {#part-d-add-the-webhook-to-a-trigger-smart-campaign}
 
-Add a **[!UICONTROL Call Webhook]** flow step to a trigger Smart Campaign, either an existing one or a new one. The Smart List triggers on that campaign decide which activities are sent to Sales Qualifier.
+Add a **[!UICONTROL Call Webhook]** flow step to a trigger Smart Campaign, either an existing one or a new one. The Smart List triggers on that campaign decide which activities are sent to Marketo Qualifier.
 
 To add the webhook:
 
@@ -175,7 +175,7 @@ To add the webhook:
 1. On the **[!UICONTROL Flow]** tab, add a **[!UICONTROL Call Webhook]** step and select the webhook you created in [Part C](#part-c-configure-the-marketo-webhook).
 1. Activate the Smart Campaign.
 
-Activity from that Smart Campaign now flows into Sales Qualifier. Representatives see and filter this activity on **[!UICONTROL Prospects]** > **[!UICONTROL Marketing Highlights]**.
+Activity from that Smart Campaign now flows into Marketo Qualifier. Representatives see and filter this activity on **[!UICONTROL Prospects]** > **[!UICONTROL Marketing Highlights]**.
 
 >[!MORELIKETHIS]
 >
