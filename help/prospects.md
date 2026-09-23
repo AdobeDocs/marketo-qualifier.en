@@ -23,18 +23,18 @@ To view the leads and contacts that you can access, select **[!UICONTROL Prospec
 
 ![Prospects table displaying lead status and last activity for prospect management](./assets/prospects.png){width="800" zoomable="yes"}
 
-* **[!UICONTROL Leads]**—Leads assigned to you in the connected CRM.
-* **[!UICONTROL Contacts]**—Contacts assigned to you in the connected CRM.
-* **[!UICONTROL Marketing Highlights]**—Prospects with live Marketo activity, such as email opens or clicks.
-* **[!UICONTROL People list]**—Prospects that you import or add manually.
+* **[!UICONTROL Leads]** Leads assigned to you in the connected CRM.
+* **[!UICONTROL Contacts]** Contacts assigned to you in the connected CRM.
+* **[!UICONTROL Marketing Highlights]** Prospects with live Marketo activity, such as email opens or clicks.
+* **[!UICONTROL People list]** Prospects that you import or add manually.
 
 ## Review prospect context and export the list
 
 The prospect list summarizes whether additional context is available for personalized outreach. A summary above the list shows the number of prospects in each state, and the context column displays the state for each prospect:
 
-* **[!UICONTROL Applied]**—The available context was applied to the prospect.
-* **[!UICONTROL Partial]**—Only some of the available context was applied.
-* **[!UICONTROL Missing]**—No additional context is available.
+* **[!UICONTROL Applied]** The available context was applied to the prospect.
+* **[!UICONTROL Partial]** Only some of the available context was applied.
+* **[!UICONTROL Missing]** No additional context is available.
 
 To download the current prospect list as a CSV file, select **[!UICONTROL Export CSV]**.
 
@@ -72,13 +72,13 @@ To narrow the list, select **[!UICONTROL Filter]**. You can filter by:
 * Source
 * Last updated
 
-Administrators can also make mapped CRM fields available as filters. In **[!UICONTROL Admin Settings]**, turn on **[!UICONTROL Filterable]** for each field that representatives use to find prospects. See [Map CRM fields](integrations.md#map-crm-fields-inbound-mapping).
+Administrators can also make mapped CRM fields available as filters. In **[!UICONTROL Admin Settings]**, turn on **[!UICONTROL Filterable]** for each field that users use to find prospects. See [Map CRM fields](integrations.md#map-crm-fields-inbound-mapping).
 
 In **[!UICONTROL My Opportunity Contacts]**, you can also filter contacts by fields from their associated opportunities, such as stage, type, and close date. Opportunity fields have labels such as **[!UICONTROL Stage (Opportunity)]**, which distinguishes them from contact fields. Your administrator controls which opportunity fields are available as filters.
 
 ### Filter by Marketing Highlights
 
-Find and prioritize prospects by their live [!DNL Marketo] engagement, such as email opens and clicks, web visits, form fills, and interesting moments. Engagement appears in near real time, as it happens.
+Review and prioritize prospects by their live [!DNL Marketo] engagement, such as email activity, web visits, and form fills. Engagement appears in near real time, as it happens.
 
 To filter prospects by Marketing Highlights:
 
@@ -93,7 +93,7 @@ Marketing Highlights is available in all production regions. An administrator co
 
 To open a prospect's profile, select the prospect. Review the signals that matter before you reach out:
 
-* **AI person summary**—An AI-written snapshot of the lead or contact and their recent engagement. Use the summary to understand the person at a glance before reviewing individual activities. AI person summaries are available on instances running [!DNL Marketo Optimizer] Prime or Ultimate.
+* **AI person summary**—An AI-written snapshot of the lead or contact and their recent engagement. Use the summary to understand the person quickly before reviewing individual activities. AI person summaries are available on instances running [!DNL Marketo Optimizer] Prime or Ultimate.
 * **Activity list**—A chronological list of activities and recent behavior.
 * **Timeline view**—A visual timeline of engagement across channels.
 * **Viewed content**—Web pages and assets that the prospect viewed. To open an item, select it.
@@ -102,7 +102,7 @@ To open a prospect's profile, select the prospect. Review the signals that matte
 
 In addition to the standing AI person summary, you can generate meeting prep tailored to a specific upcoming call from the **[!UICONTROL Meeting research]** tab, next to **[!UICONTROL Account research]**.
 
-* **Goal-based**—If the prospect is enrolled in a running Outbound Workflow, select it. The prep aligns to that Outbound Workflow's goal, such as booking a meeting, a product pitch, an event invitation, or re-engaging the prospect.
+* **Goal-based**—If the prospect is enrolled in a running Outbound Workflow, select it. The prep aligns to that Outbound Workflow's goal, such as booking a meeting or re-engaging the prospect.
 * **Custom prompt**—Enter what you want to prepare for, for example `Focus on renewal risk` or `Prepare for a technical deep dive with their IT lead`. The prep matches your prompt. The custom prompt option is available whenever the prospect is not in a running Outbound Workflow.
 
 >[!MORELIKETHIS]
