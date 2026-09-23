@@ -1,6 +1,6 @@
 ---
-title: Adobe Marketo Qualifier overview
-description: Learn about Adobe Marketo Qualifier, an AI-driven app that automates prospect qualification, outreach, and buyer engagement for B2B sales teams.
+title: "[!DNL Adobe Marketo Qualifier] overview"
+description: Learn about [!DNL Adobe Marketo Qualifier], an AI-driven app that automates prospect qualification, outreach, and buyer engagement for B2B sales teams.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/4IsAlgFBxddHCz0-CLCDXPCHI7m3motiXhgCR6MZq0k'
@@ -19,13 +19,13 @@ topic_v2:
     internal-label: Insights
 ---
 
-# Adobe Marketo Qualifier
+# [!DNL Adobe Marketo Qualifier]
 
-Adobe Marketo Qualifier is an AI-powered application that automates prospect qualification, outreach, and cross-channel buyer engagement for business development representatives (BDRs). The Account Qualification Agent analyzes your accounts and prospects, prioritizes those that are ready for the next step, and drafts personalized outreach based on your CRM data.
+[!DNL Adobe Marketo Qualifier] is an AI-powered app that automates prospect qualification, outreach, and cross-channel buyer engagement for business development representatives (BDRs). The Account Qualification Agent analyzes your accounts and prospects, prioritizes those that are ready for the next step, and drafts personalized outreach based on your CRM data.
 
-BDRs can use the browser and email plugins to access business intelligence directly within their CRM or Outlook.
+The app is part of the [!DNL Marketo] product family, alongside [!DNL Marketo Engage], [!DNL Marketo Optimizer], and [!DNL Marketo Measure]. BDRs can use the browser and email plugins to access business intelligence directly within their CRM or Outlook.
 
-## What you can do in Marketo Qualifier
+## What you can do in [!DNL Marketo Qualifier]
 
 * **Prioritize prospects and accounts** with AI-generated activity summaries and signal-based prioritization.
 * **Build goal-driven Outbound Workflows** in which AI proposes a cadence and drafts personalized emails for each prospect.
@@ -36,6 +36,12 @@ BDRs can use the browser and email plugins to access business intelligence direc
 * **Track outreach performance** with email and meeting-booking reports.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476550)
+
+## Use the home page
+
+The home page provides a starting point for your daily work. First-time guidance and starter prompts help you open **[!UICONTROL AI Chat]** and ask a question. Quick links take you directly to **[!UICONTROL Prospects]**, **[!UICONTROL Outbound Workflows]**, and **[!UICONTROL Tasks]**.
+
+The home page also shows upcoming tasks and Outbound Workflows. In the task list, choose calendar tasks or agent-suggested tasks so that you can focus on the work that matters next.
 
 ## Explore the guide
 

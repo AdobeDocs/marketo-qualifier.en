@@ -46,7 +46,7 @@ The **[!UICONTROL Details]** tab gives you a snapshot of the account and its pip
 The overview card at the top of the tab identifies the account and summarizes its value:
 
 * The account name and region
-* **Annual recurring revenue (ARR)**—The annual recurring revenue across all active subscriptions. Select **[!UICONTROL View All]** to review ARR by product in the **[!UICONTROL Annual Recurring Revenue]** dialog.
+* **Annual recurring revenue (ARR)**—The annual recurring revenue across all active subscriptions. To review ARR by product in the **[!UICONTROL Annual Recurring Revenue]** dialog, select **[!UICONTROL View All]**.
 * Account statistics, including open opportunity and contact counts and the pipeline value
 
 ### Account overview summary
@@ -59,7 +59,7 @@ Use the buttons below the overview to switch between account views. The availabl
 
 | View | What it shows |
 | --- | --- |
-| **[!UICONTROL Opportunities]** | Open opportunities linked to the account, with key fields for each. Select **[!UICONTROL View all]** to see the full list in a table. Opportunity details, such as stage, type, and close date, can also be used to filter the account's contacts in **[!UICONTROL My Opportunity Contacts]** when an administrator makes those fields filterable. |
+| **[!UICONTROL Opportunities]** | Open opportunities linked to the account, with key fields for each. To see the full list in a table, select **[!UICONTROL View all]**. Opportunity details, such as stage, type, and close date, can also be used to filter the account's contacts in **[!UICONTROL My Opportunity Contacts]** when an administrator makes those fields filterable. |
 | **[!UICONTROL Top Members]** | The account's top engaged contacts, ranked by engagement. Each contact shows their job title, email address, engagement score, and urgency indicator. |
 | **[!UICONTROL Intent data]** | Buying intent signals for the account, such as the products and topics the account is researching. |
 | **[!UICONTROL Account Team Members]** | People assigned to the account, with their email, job title, territory, and product group. |
@@ -74,7 +74,7 @@ From the **[!UICONTROL Top Members]** view, take either of these actions for a c
 
 The **[!UICONTROL Account Research]** tab contains three areas:
 
-* **[!UICONTROL Research categories]**—Research topics. Select a category to view its research in the center pane.
+* **[!UICONTROL Research categories]**—Research topics. To view a category's research in the center pane, select the category.
 * **Research content**—AI-generated research cards grouped by category. A card can include the source domain and the dates when the signal was first and last detected.
 * **[!UICONTROL Recent news]**—Current news about the account, including dates, tags, and source links.
 

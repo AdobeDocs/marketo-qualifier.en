@@ -87,7 +87,7 @@ An unconfigured card shows **[!UICONTROL Connect]**. A configured card shows **[
 
 ### Connect or edit a connection
 
-1. On the CRM card, select **[!UICONTROL Connect]**, or select **[!UICONTROL More]** > **[!UICONTROL Edit configuration]** to update an existing connection.
+1. To create a connection, select **[!UICONTROL Connect]** on the CRM card. To update an existing connection, select **[!UICONTROL More]** > **[!UICONTROL Edit configuration]**.
 1. Enter the credentials from your CRM administrator.
 
    >[!BEGINTABS]
@@ -115,7 +115,7 @@ If Marketo Qualifier rejects the credentials, it identifies the cause, such as i
 ### Disconnect a connection
 
 1. On the connected CRM card, select **[!UICONTROL More]** > **[!UICONTROL Disconnect]**.
-1. Review the warning and select **[!UICONTROL Disconnect]** to confirm.
+1. Review the warning. To confirm, select **[!UICONTROL Disconnect]**.
 
 >[!WARNING]
 >
@@ -142,7 +142,7 @@ Inbound mapping controls which CRM fields Marketo Qualifier imports and where th
    | **[!UICONTROL Opportunities]** | The account's opportunity details. |
 
 1. Enter a **[!UICONTROL Section name]** and an optional **[!UICONTROL Description]**. Then, select **[!UICONTROL Next]**.
-1. On the **[!UICONTROL Add field]** step, search for and select the CRM fields to import. Then, select **[!UICONTROL Next]**. Each field shows its **[!UICONTROL Display name]**, **[!UICONTROL Field name]**, and **[!UICONTROL Data type]**.
+1. On the **[!UICONTROL Add field]** step, to import CRM fields, search for and select them. Then, to continue, select **[!UICONTROL Next]**. Each field shows its **[!UICONTROL Display name]**, **[!UICONTROL Field name]**, and **[!UICONTROL Data type]**.
 1. For **[!UICONTROL Prospects]**, **[!UICONTROL Contacts]**, and **[!UICONTROL Opportunities]** sections, turn on **[!UICONTROL Filterable]** for each field that representatives need on the [Prospects](prospects.md) list.
 
    A field cannot be made filterable if its data type does not support filtering or if it is already used in another section.

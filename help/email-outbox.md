@@ -29,10 +29,10 @@ If you have not sent any emails, the list shows _Your outbox is empty_. After yo
 
 ## Read an email and its replies
 
-Select an email in the list to open it on the right. The reading view has three parts:
+To open an email on the right, select it in the list. The reading view has three parts:
 
 * **Recipient**—The recipient's name, job title, and account, when available.
-* **Subject and Outbound Workflow**—The subject, the name of the [Outbound Workflow](outbound-workflows.md) that sent the email, and the Outbound Workflow status. Select the Outbound Workflow name to open it.
+* **Subject and Outbound Workflow**—The subject, the name of the [Outbound Workflow](outbound-workflows.md) that sent the email, and the Outbound Workflow status. To open the Outbound Workflow, select its name.
 * **Conversation**—The sent email and any replies in a thread. Each entry identifies whether the message was sent or received and includes a timestamp.
 
 Emails render as they were sent, including personalized content. If the body of a message is not available, Marketo Qualifier shows a short _Email content not available_ note in its place.

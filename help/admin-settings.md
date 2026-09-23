@@ -1,6 +1,6 @@
 ---
 title: Admin settings
-description: Learn how to manage CRM fields, activity synchronization, email opt-out, and other Adobe Marketo Qualifier administration settings.
+description: Learn how to manage CRM fields, activity synchronization, email opt-out, and other [!DNL Adobe Marketo Qualifier] administration settings.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 TQID: 'https://experienceleague.adobe.com/vbtO6I67ZEaZz3oio9InNErvq5D0wjbRxyDZpTq8Lzo'
@@ -20,7 +20,7 @@ internal-label: Administration
 
 Use **[!UICONTROL Admin Settings]** to configure CRM integrations, manage the Knowledge Center, and configure email opt-out.
 
-Adobe Marketo Qualifier connects to Salesforce or Microsoft Dynamics 365. The connection gives the Account Qualification Agent (AQA) a consistent view of leads, accounts, contacts, activities, and owners. Marketo Qualifier can also write outreach activities and opt-out status back to the CRM and synchronize outreach activities to Marketo.
+[!DNL Adobe Marketo Qualifier] connects to Salesforce or Microsoft Dynamics 365. The connection gives the Account Qualification Agent (AQA) a consistent view of leads, accounts, contacts, activities, and owners. Marketo Qualifier can also write outreach activities and opt-out status back to the CRM and synchronize outreach activities to Marketo.
 
 To configure CRM connections, field mapping, and activity synchronization, go to **[!UICONTROL Administration]** > **[!UICONTROL Admin Settings]** > **[!UICONTROL CRM connections]**. Standard users can use the configured CRM data and filters but cannot change these settings. To connect a CRM for the first time, see [Get started](getting-started.md#connect-your-crm).
 
@@ -33,8 +33,21 @@ To configure CRM connections, field mapping, and activity synchronization, go to
 Marketo Qualifier works with your CRM in these ways:
 
 * **CRM MCP queries**—The Account Qualification Agent queries live CRM data so that answers and insights reflect the current state of your records.
-* **Embedded plugin**—The CRM plugin displays [!DNL Marketo Sales Insights] (MSI) insights and agentic data in your CRM. Use the plugin to add a prospect to Marketo Qualifier.
+* **Embedded plugin**—The CRM plugin displays [!DNL Marketo Sales Insights] (MSI) insights and agentic data in your CRM. Use the plugin to add a prospect to [!DNL Marketo Qualifier].
 * **Activity synchronization**—When an administrator turns on **[!UICONTROL Activity sync]**, outreach activities synchronize to the CRM and Marketo.
+
+### Prioritize leads in the CRM plugin
+
+The CRM plugin provides a default home where representatives can prioritize leads without leaving the CRM. The available tabs organize work by source and intent:
+
+* **[!UICONTROL Best Bets]**—Lead recommendations that are ready for action.
+* **[!UICONTROL My Watch List]**—Leads that you are tracking.
+* **[!UICONTROL Web Activity]**—Recent site visits from known leads.
+* **[!UICONTROL Anonymous Web Activity]**—Visits from unidentified visitors.
+* **[!UICONTROL My Email]**—Email engagement associated with your leads.
+* **[!UICONTROL Webinar]**—Webinar registration and attendance activity.
+
+Each lead can include a [!DNL Marketo] email preview, a link to the lead details, and LinkedIn research. The tabs and data that you can access depend on your CRM plugin configuration.
 
 ## CRM access scope
 
@@ -51,7 +64,7 @@ After the CRM is connected, select **[!UICONTROL Manage]** for the connection an
 1. Select **[!UICONTROL Add section]**.
 1. Enter a section name and description.
 1. Select an entity type. **[!UICONTROL Prospects]** is selected by default. **[!UICONTROL Contacts]**, **[!UICONTROL Accounts]**, and **[!UICONTROL Opportunities]** are also available.
-1. Select the CRM fields to import.
+1. To import CRM fields, select the fields.
 
    Each field row displays its **[!UICONTROL Display name]**, **[!UICONTROL Field name]**, and **[!UICONTROL Data type]**.
 
@@ -106,13 +119,14 @@ The **[!UICONTROL Knowledge Center]** gives the Account Qualification Agent (AQA
 
 ![Knowledge Center](assets/knowledge-center.png){width="800" zoomable="yes"}
 
-1. In the left navigation, expand **[!UICONTROL Administration]**, select **[!UICONTROL Admin Settings]** and select **[!UICONTROL Knowledge Center]**
-1.  u
+1. In the left navigation, expand **[!UICONTROL Administration]**, select **[!UICONTROL Admin Settings]**, and select **[!UICONTROL Knowledge Center]**.
 1. Set the **[!UICONTROL Company name]** and **[!UICONTROL Company URL]** that Marketo Qualifier uses to research your company and draft emails.
 1. Upload sales plays, ideal customer profiles (ICPs), positioning guides, and other sales collateral in PDF, PPTX, or DOCX format.
 1. Select **[!UICONTROL Build Playbook]**.
 
-Each uploaded document displays its processing status, such as **[!UICONTROL Ready]**, and when it was last updated.
+The page shows the status of the most recently built playbook and provides the next action after you upload content. To retrieve the latest status after a build, select **[!UICONTROL Refresh]**.
+
+Each uploaded document also displays its processing status, such as **[!UICONTROL Ready]**, and when it was last updated.
 
 >[!NOTE]
 >

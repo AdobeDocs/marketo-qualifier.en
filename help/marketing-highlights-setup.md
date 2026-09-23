@@ -45,14 +45,14 @@ To create the credentials:
 
 1. Go to [Adobe Developer Console](https://developer.adobe.com/console/) and sign in with your Adobe ID.
 1. Select **[!UICONTROL Create new project]**, or open an existing project.
-1. Select **[!UICONTROL Edit project]**, rename the project to something identifiable, such as `Marketo Qualifier Marketing Highlights`, and select **[!UICONTROL Save]**.
+1. To rename the project, select **[!UICONTROL Edit project]**, enter an identifiable name such as `Marketo Qualifier Marketing Highlights`, and select **[!UICONTROL Save]**.
 1. Select **[!UICONTROL Add API]**, select **[!UICONTROL Experience Platform API]**, then select **[!UICONTROL Next]**.
 1. Choose **[!UICONTROL OAuth Server-to-Server]** as the authentication type, then select **[!UICONTROL Next]**.
 
    **[!UICONTROL OAuth Server-to-Server]** lets [!DNL Marketo] call the Marketo Qualifier API directly from its server, without requiring a person to sign in.
 
 1. Enter a credential name of 45 characters or fewer, such as `Marketo Qualifier Marketing Highlights Creds`.
-1. Select the product profile to associate, then select **[!UICONTROL Save configured API]**.
+1. To associate the product profile, select it, then select **[!UICONTROL Save configured API]**.
 1. Under **[!UICONTROL Connected credentials]**, open the **[!UICONTROL OAuth Server-to-Server]** credential. Select **[!UICONTROL Retrieve client secret]**, then copy the **[!UICONTROL Client ID]** and **[!UICONTROL Client Secret]**. You use these values in [Part C](#part-c-configure-the-marketo-webhook).
 
 >[!WARNING]

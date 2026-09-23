@@ -1,11 +1,11 @@
 ---
-user-guide-title: Adobe Marketo Qualifier
-user-guide-description: Learn how to use Adobe Marketo Qualifier to automate prospect qualification, outreach, and buyer engagement for B2B sales teams.
+user-guide-title: "[!DNL Adobe Marketo Qualifier]"
+user-guide-description: Learn how to use [!DNL Adobe Marketo Qualifier] to automate prospect qualification, outreach, and buyer engagement for B2B sales teams.
 ---
-# Adobe Marketo Qualifier guide {#using}
+# [!DNL Adobe Marketo Qualifier] guide {#using}
 
 + [Overview](home.md)
-+ [Release Notes](release-notes.md)
++ [Release notes](release-notes.md)
 + [Get started](getting-started.md)
 + [Prospects](prospects.md)
 + [Accounts](accounts.md)
