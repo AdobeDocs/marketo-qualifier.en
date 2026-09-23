@@ -1,10 +1,20 @@
 ---
-title: Adobe Marketo Qualifier Release Notes
-description: Learn what is new in Adobe Marketo Qualifier.
+title: "[!DNL Adobe Marketo Qualifier] release notes"
+description: Learn what is new in [!DNL Adobe Marketo Qualifier].
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 ---
-# Adobe Marketo Qualifier Release Notes
+# [!DNL Adobe Marketo Qualifier] release notes
+
+## 09-22-2026
+
+This release includes:
+
+* View [!DNL Marketo Sales Insights] and agentic data in the embedded CRM plugin, and add prospects to [!DNL Marketo Qualifier]. [Learn more](admin-settings.md#crm-mcp-and-the-embedded-plugin).
+* Prioritize CRM leads with Best Bets, My Watch List, web activity, email engagement, and webinar activity. [Learn more](admin-settings.md#prioritize-leads-in-the-crm-plugin).
+* Automatically enroll prospects in Outbound Workflows when their live [!DNL Marketo] activity matches the workflow criteria. [Learn more](home.md#automatically-enroll-prospects-from-marketing-highlights).
+* Review prospect context and export the prospect list, and view AI person summaries on [!DNL Marketo Optimizer] Prime and Ultimate instances. [Learn more](prospects.md#review-prospect-context-and-export-the-list).
+* Review and approve generated prospect emails from the task queue, and reply with agent suggestions during an Outbound Workflow. [Learn more](tasks.md).
 
 ## 09-08-2026
 
@@ -17,11 +27,11 @@ This release includes:
 * Generated emails use any additional prospect data you import and can be written natively in the prospect's language. [Learn more](outbound-workflows.md#step-5-add-prospects-and-start-email-generation).
 * Outbound Performance shows open rate and click rate by default, with a toggle for raw counts, and total prospects at the organization level. [Learn more](performance.md).
 * CRM Sync Rules automatically update CRM status as a prospect moves through an Outbound Workflow. [Learn more](admin-settings.md#configure-crm-sync-rules).
-* Ask AI Chat questions across your Marketo Qualifier, CRM, [!DNL Marketo], and [!DNL Adobe Journey Optimizer B2B Edition] data. [Learn more](ai-assistant.md#ask-ai-chat-across-your-connected-data).
+* Ask AI Chat questions across your [!DNL Marketo Qualifier], CRM, [!DNL Marketo], and [!DNL Marketo Optimizer] data. [Learn more](ai-assistant.md#ask-ai-chat-across-your-connected-data).
 
 ## 08-17-2026
 
-[!DNL Marketo Qualifier] is now available as a stand-alone application. It supports Marketo and Adobe Journey Optimizer B2B.
+[!DNL Marketo Qualifier] is now available as a stand-alone app. It supports [!DNL Marketo Engage] and [!DNL Marketo Optimizer].
 
 This release includes:
 

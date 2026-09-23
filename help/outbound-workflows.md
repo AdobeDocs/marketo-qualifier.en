@@ -1,6 +1,6 @@
 ---
 title: Create and manage Outbound Workflows
-description: Learn how to create, share, review, and manage AI-generated Outbound Workflows in Adobe Marketo Qualifier to run goal-driven outreach cadences.
+description: Learn how to create, share, review, and manage AI-generated Outbound Workflows in [!DNL Adobe Marketo Qualifier] to run goal-driven outreach cadences.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/n3FbuiM2zF9QSqaKx1bhBSdbsf-w7vEsEGjCQTBo3g4'
@@ -63,12 +63,14 @@ Administrators can assign the Outbound Workflow to a teammate instead of themsel
 
 The goal defines the intended outcome and guides targeting, cadence, and email generation.
 
-1. Select **[!UICONTROL Start from scratch]** to write your own goal, or select **[!UICONTROL Start from template]** to use a saved template.
+1. To write your own goal, select **[!UICONTROL Start from scratch]**, or to use a saved template, select **[!UICONTROL Start from template]**.
 
-1. Select one of the **[!UICONTROL Recommended goals]** matched to your company. Each recommendation includes a short explanation of why it fits. Select a recommendation to fill in the goal, select **[!UICONTROL View all]** to browse the full set of recommendations, or enter your own goal. You can also choose from the **[!UICONTROL Popular goals]** list.
+1. Select one of the **[!UICONTROL Recommended goals]** matched to your company. Each recommendation includes a short explanation of why it fits. To fill in the goal, select a recommendation. To browse the full set of recommendations, select **[!UICONTROL View all]**, or enter your own goal. You can also choose from the **[!UICONTROL Popular goals]** list.
 1. Select **[!UICONTROL Next: Targeting]**.
 
 State a specific outcome in the goal. For example, enter `Book a 15-minute discovery call with marketing leaders evaluating campaign automation` instead of `Promote campaign automation`.
+
+The AI preserves requirements in the goal exactly in the generated touchpoints. Include exact sentences, required opening or closing lines, named sessions and dates, or a specific structure when the generated content must preserve them.
 
 ### Step 2: Configure targeting filters
 
@@ -76,12 +78,29 @@ Targeting filters define which prospects are eligible. When you add prospects la
 
 ![Targeting filters](assets/create-workflow-targeting.png){width="800" zoomable="yes"}
 
-1. Select the down arrow to open the **[!UICONTROL Add a filter]** list, then select a filter.
+Describe your ideal prospect in natural language. For example, enter `Hot leads at companies with 500 or more employees who requested a demo`. [!DNL Adobe Marketo Qualifier] converts the description into targeting criteria that you can review and refine.
+
+1. To open the **[!UICONTROL Add a filter]** list, select the down arrow, then select a filter.
 
 1. Set values for the filter.
 1. Add more filters if you need to narrow the audience.
 
 1. Select **[!UICONTROL Next: Generate touchpoints]**.
+
+Targeting can use activity type, score, rating, and other available attributes. Combine criteria with [!DNL AND] or [!DNL OR], and use operators such as equals, contains, greater than, less than, and between.
+
+### Automatically enroll prospects from Marketing Highlights
+
+An Outbound Workflow can evaluate live Marketing Highlights activity against its targeting criteria. When activity matches, [!DNL Marketo Qualifier] resolves the prospect's CRM owner by email and enrolls the prospect only in an eligible workflow that belongs to that representative.
+
+Automatic enrollment follows this sequence:
+
+1. A representative defines the workflow's targeting criteria.
+1. Live [!DNL Marketo] activity arrives for a prospect.
+1. [!DNL Marketo Qualifier] resolves the prospect's owner from Salesforce or Microsoft Dynamics and evaluates the activity against the owner's eligible workflows.
+1. When the criteria match, the prospect is enrolled and outreach starts.
+
+If another representative is already contacting the prospect, [!DNL Marketo Qualifier] displays a warning before duplicate outreach starts.
 
 ### Step 3: Generate and review touchpoints
 
@@ -143,7 +162,7 @@ Saving opens the prospect selection view with the targeting filters from step 2 
 
 1. Adjust filters here if you need to expand or narrow the list.
 1. Select prospects using the checkboxes.
-1. Select **[!UICONTROL Next: Review touchpoints]** to start per-prospect email generation.
+1. To start per-prospect email generation, select **[!UICONTROL Next: Review touchpoints]**.
 
 AI generates a personalized email for each selected prospect and email touchpoint. Phone and LinkedIn InMail touchpoints remain scheduled steps. To continue working during generation, select **[!UICONTROL Notify when ready]**.
 
@@ -155,14 +174,14 @@ Emails can also be generated in the prospect's language, with correct greetings,
 
 ## Review and refine generated emails
 
-When generation finishes, the Outbound Workflow detail view prompts you to review the drafts. Adobe Marketo Qualifier does not send email until you approve it.
+When generation finishes, the Outbound Workflow detail view prompts you to review the drafts. [!DNL Marketo Qualifier] does not send email until you approve it.
 
 1. In the Outbound Workflow detail view, select **[!UICONTROL Review drafts]** in the banner.
 1. The **[!UICONTROL Review touchpoints]** step has two tabs:
    * **[!UICONTROL Ready for Review]**—Emails that have finished generating.
    * **[!UICONTROL Generating]**—Emails that are still being written.
-1. In the prospect list on the left, select a name to load that prospect's touchpoints on the right.
-1. Use the chevron (**>**) on a touchpoint to expand and read the full subject line and body.
+1. To load a prospect's touchpoints on the right, select the prospect's name in the list on the left.
+1. To expand a touchpoint and read the full subject line and body, use its chevron (**>**).
 
 ### Read the AI reasoning
 
@@ -172,7 +191,7 @@ For each generated email, **[!UICONTROL Reasoning]** explains how the AI crafted
 
 For small wording or tone changes:
 
-1. On the expanded touchpoint, select the **[!UICONTROL Edit]** icon to open the editor.
+1. To open the editor, select the **[!UICONTROL Edit]** icon on the expanded touchpoint.
 1. Edit the subject line or body.
 1. Select **[!UICONTROL Save]**.
 
@@ -204,13 +223,15 @@ Approved emails are sent according to the Outbound Workflow's selected days, sen
 
 ## Share an Outbound Workflow
 
-Each Outbound Workflow has a **[!UICONTROL Permissions]** setting. Outbound Workflows are **[!UICONTROL Private]** by default. The owner can select **[!UICONTROL Shared with everyone]** to make an Outbound Workflow available to the team.
+Each Outbound Workflow has a **[!UICONTROL Permissions]** setting. Outbound Workflows are **[!UICONTROL Private]** by default. To make an Outbound Workflow available to the team, the owner can select **[!UICONTROL Shared with everyone]**.
 
 >[!CAUTION]
 >
 >Sharing is permanent. After an Outbound Workflow is set to **[!UICONTROL Shared with everyone]**, it cannot be changed back to **[!UICONTROL Private]**.
 
 On a shared Outbound Workflow, teammates can enroll their own prospects. Each person can manage or pause only the prospects that they enrolled, including when using bulk actions. The Outbound Workflow owner alone can edit plan-level settings, including schedule, time zone, and cadence. These settings are read-only for teammates.
+
+When you enroll prospects in a shared Outbound Workflow, choose whether email is sent as the workflow owner or as each lead's assigned representative.
 
 Use these filters to keep shared Outbound Workflows and results focused:
 

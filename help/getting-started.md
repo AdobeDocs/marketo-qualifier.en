@@ -54,7 +54,7 @@ These steps are done in the Adobe Admin Console.
 1. Open **[!UICONTROL Assigned product profiles]** and select **[!UICONTROL Assign profile]**.
 1. Select **[!UICONTROL Adobe Experience Platform]**.
 1. Select the **[!UICONTROL Default Production All Access]** product profile, select **[!UICONTROL Apply]**, and then select **[!UICONTROL Save]**.
-1. Open **[!UICONTROL Users]** and select **[!UICONTROL Add users]** to add everyone who needs access to Marketo Qualifier.
+1. To add everyone who needs access to Marketo Qualifier, open **[!UICONTROL Users]** and select **[!UICONTROL Add users]**.
 
 ### Marketo Qualifier administrators
 
@@ -165,7 +165,7 @@ A Microsoft Dynamics 365 or Azure administrator registers an application and add
 
 ### Import CRM fields
 
-After connecting the CRM, configure inbound mapping to determine which CRM fields appear within Marketo Qualifier. On the connected CRM card, select **[!UICONTROL Manage]** to open **[!UICONTROL Inbound mapping]**, then add a section for each entity type whose fields you want to import.
+After connecting the CRM, configure inbound mapping to determine which CRM fields appear within Marketo Qualifier. To open **[!UICONTROL Inbound mapping]**, select **[!UICONTROL Manage]** on the connected CRM card, then add a section for each entity type whose fields you want to import.
 
 See [Map CRM fields (inbound mapping)](integrations.md#map-crm-fields-inbound-mapping) for complete steps, including how to make imported fields available as filters.
 

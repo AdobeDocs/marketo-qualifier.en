@@ -1,6 +1,6 @@
 ---
-title: Prospects in Adobe Marketo Qualifier
-description: Learn how to build your prospect list from CRM, imported, and manually added sources, filter prospects, and review prospect details in Adobe Marketo Qualifier.
+title: Prospects in [!DNL Adobe Marketo Qualifier]
+description: Learn how to build your prospect list from CRM, imported, and manually added sources, filter prospects, and review prospect details in [!DNL Adobe Marketo Qualifier].
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/zf2H5rq1JlIT26LqLPMrm2Mq3tSIrLOiTEw6BXb1w2U'
@@ -19,7 +19,7 @@ topic_v2:
 
 # Prospects
 
-Select **[!UICONTROL Prospects]** in the left navigation to view the leads and contacts that you can access. Use the list to review each prospect's status and latest activity.
+To view the leads and contacts that you can access, select **[!UICONTROL Prospects]** in the left navigation. Use the list to review each prospect's status and latest activity.
 
 ![Prospects table displaying lead status and last activity for prospect management](./assets/prospects.png){width="800" zoomable="yes"}
 
@@ -28,11 +28,21 @@ Select **[!UICONTROL Prospects]** in the left navigation to view the leads and c
 * **[!UICONTROL Marketing Highlights]**—Prospects with live Marketo activity, such as email opens or clicks.
 * **[!UICONTROL People list]**—Prospects that you import or add manually.
 
+## Review prospect context and export the list
+
+The prospect list summarizes whether additional context is available for personalized outreach. A summary above the list shows the number of prospects in each state, and the context column displays the state for each prospect:
+
+* **[!UICONTROL Applied]**—The available context was applied to the prospect.
+* **[!UICONTROL Partial]**—Only some of the available context was applied.
+* **[!UICONTROL Missing]**—No additional context is available.
+
+To download the current prospect list as a CSV file, select **[!UICONTROL Export CSV]**.
+
 ## Build your prospect list
 
 The prospect list combines people from more than one source:
 
-* **CRM prospects**—Adobe Marketo Qualifier automatically imports leads and contacts assigned to the connected user. See [Integrations](integrations.md).
+* **CRM prospects**—[!DNL Adobe Marketo Qualifier] automatically imports leads and contacts assigned to the connected user. See [Integrations](integrations.md).
 * **Imported prospects**—Prospects imported from a CSV file.
 * **Manually added prospects**—Individual prospects added in Marketo Qualifier.
 
@@ -53,7 +63,7 @@ To add prospects that do not come from your CRM:
 
 ## Filter and find prospects
 
-Select **[!UICONTROL Filter]** to narrow the list. You can filter by:
+To narrow the list, select **[!UICONTROL Filter]**. You can filter by:
 
 * Outbound Workflow status
 * Created by
@@ -81,12 +91,12 @@ Marketing Highlights is available in all production regions. An administrator co
 
 ## Review prospect details
 
-Select a prospect to open their profile. Review the signals that matter before you reach out:
+To open a prospect's profile, select the prospect. Review the signals that matter before you reach out:
 
-* **AI person summary**—An AI-written snapshot of the lead or contact and their recent engagement. Use the summary to understand the person at a glance before reviewing individual activities. AI person summaries are available on instances running Adobe Journey Optimizer B2B Edition Prime or Ultimate.
+* **AI person summary**—An AI-written snapshot of the lead or contact and their recent engagement. Use the summary to understand the person at a glance before reviewing individual activities. AI person summaries are available on instances running [!DNL Marketo Optimizer] Prime or Ultimate.
 * **Activity list**—A chronological list of activities and recent behavior.
 * **Timeline view**—A visual timeline of engagement across channels.
-* **Viewed content**—Web pages and assets that the prospect viewed. Select an item to open it.
+* **Viewed content**—Web pages and assets that the prospect viewed. To open an item, select it.
 
 ### Generate meeting prep
 

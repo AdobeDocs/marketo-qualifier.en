@@ -1,6 +1,6 @@
 ---
-title: Tasks in Adobe Marketo Qualifier
-description: Learn how to process manual outreach tasks and review agent-suggested prospects in the Adobe Marketo Qualifier task queue.
+title: Tasks in [!DNL Adobe Marketo Qualifier]
+description: Learn how to process manual outreach tasks and review agent-suggested prospects in the [!DNL Adobe Marketo Qualifier] task queue.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/MbTN1r-ARrW-XYtdIS-KZT7K1Lk-B3GihT8iXL60GrQ'
@@ -41,7 +41,7 @@ Manual tasks are tied to Outbound Workflow steps and come in three types:
 
 * **[!UICONTROL LinkedIn InMail]**—Created when a cadence reaches a LinkedIn InMail step. The work panel shows content to copy and send from LinkedIn. Expand **[!UICONTROL AI Rationale]** to review the rationale.
 
-* **[!UICONTROL Email Review]**—Created after Adobe Marketo Qualifier generates a prospect's personalized emails. Select **[!UICONTROL Review emails]** to review and approve the drafts before outreach begins. See [Review and refine generated emails](outbound-workflows.md#review-and-refine-generated-emails).
+* **[!UICONTROL Email Review]**—Created after [!DNL Adobe Marketo Qualifier] generates a prospect's personalized emails. To review and approve the drafts before outreach begins, select **[!UICONTROL Review emails]**. See [Review and refine generated emails](outbound-workflows.md#review-and-refine-generated-emails).
 
 ![Email Review](assets/tasks-review.png)
 
@@ -79,7 +79,7 @@ The toolbar above the list controls which tasks appear and in what order. Your f
 * **[!UICONTROL Sort]**—Sort by due date or creation date. The sort order also determines the order in which the queue advances.
 * **[!UICONTROL Search tasks]**—Find tasks by prospect name, company name, or Outbound Workflow. Search applies with active filters.
 
-Active filters appear as chips below the toolbar. Select **[!UICONTROL Clear all]** to reset them.
+Active filters appear as chips below the toolbar. To reset them, select **[!UICONTROL Clear all]**.
 
 ### Task status
 
@@ -100,7 +100,7 @@ Completed, skipped, and canceled tasks are final. Their actions are no longer av
 
 The **[!UICONTROL Agent suggestions]** tab lists prospects that match an Outbound Workflow's targeting criteria and are recommended for enrollment. To turn on recommendations, see [Outbound Workflows](outbound-workflows.md).
 
-Select a suggestion to review it in the work panel:
+To review a suggestion in the work panel, select it:
 
 * A recency badge marks each suggestion as **[!UICONTROL New]** or **[!UICONTROL Previous]**.
 * The **[!UICONTROL Recommended leads]** or **[!UICONTROL Recommended contacts]** table lists the proposed prospects with columns for **[!UICONTROL Name]**, **[!UICONTROL Title]**, **[!UICONTROL Account]**, **[!UICONTROL Status]**, **[!UICONTROL Email]**, and **[!UICONTROL Last updated]**.
@@ -112,6 +112,23 @@ Two actions are available:
 
 The **[!UICONTROL Agent suggestions]** tab includes **[!UICONTROL Current]**, **[!UICONTROL Completed]**, and **[!UICONTROL Cancelled]** status filters, an Outbound Workflow filter, and sorting by creation date.
 
+### Reply to a prospect with an agent suggestion
+
+When a prospect replies to an email, [!DNL Marketo Qualifier] can draft an in-thread response and add it as a task under **[!UICONTROL Agent suggestions]**. The draft uses relevant context from:
+
+* The full email thread, not only the latest message.
+* Your Knowledge Center collateral and product research.
+* Account signals, such as recent news, marketing engagement, and CRM activity.
+* Your saved [email drafting context](profile-settings.md#email-drafting-context).
+
+The assistant adapts the response to the prospect's intent. For example, it can offer times through your booking link for a meeting request, reinforce value when the prospect is interested, answer a product question from your collateral, share a relevant asset, address an objection with one differentiator, or use a low-pressure response when the prospect wants to defer.
+
+Messages about pricing, legal or security requirements, hostile responses, and unclear requests remain with the representative for a personal response.
+
+1. Open the reply suggestion and review the full thread and drafted response.
+1. To create another draft, edit the response, or select **[!UICONTROL Generate with AI]**.
+1. To send the response and continue the prospect's Outbound Workflow, select **[!UICONTROL Approve and send]**.
+
 ## Complete tasks from an Outbound Workflow
 
 On an Outbound Workflow's **[!UICONTROL Engaged Prospects]** view, a manual touchpoint provides the same **[!UICONTROL Mark as complete]**, **[!UICONTROL Skip]**, and notes options. Completing a task there also updates its status on the **[!UICONTROL Tasks]** page. See [Outbound Workflows](outbound-workflows.md).
@@ -120,7 +137,7 @@ On an Outbound Workflow's **[!UICONTROL Engaged Prospects]** view, a manual touc
 
 * When you have no tasks to act on, the list shows a _You're all caught up for today_ message.
 * When filters match no tasks, the list reports that no tasks match your filters.
-* When no task is selected, the work panel prompts you to select a task to view its details.
+* When no task is selected, the work panel prompts you to select a task. To view its details, select a task.
 
 >[!MORELIKETHIS]
 >

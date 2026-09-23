@@ -12,7 +12,7 @@ Outbound Workflows    internal-label: Insights
 
 # Outbound performance in Adobe Marketo Qualifier
 
-In the left navigation, select **[!UICONTROL Outbound performance]** to track outbound activity and results across your team. The dashboard has two views: **[!UICONTROL Organization Performance]** and **[!UICONTROL Campaign Performance]**.
+To track outbound activity and results across your team, select **[!UICONTROL Outbound performance]** in the left navigation. The dashboard has two views: **[!UICONTROL Organization Performance]** and **[!UICONTROL Campaign Performance]**.
 
 ![Outbound Performance](assets/outbound-performance.png){width="800" zoomable="yes"}
 
@@ -20,7 +20,7 @@ In the left navigation, select **[!UICONTROL Outbound performance]** to track ou
 
 These controls apply across both views and all tabs:
 
-* **[!UICONTROL Filters]**: Select **[!UICONTROL Filters]** to narrow the dashboard by team member and campaign.
+* **[!UICONTROL Filters]**: To narrow the dashboard by team member and campaign, select **[!UICONTROL Filters]**.
 * **[!UICONTROL Time period]**: Select a reporting window of 7, 15, 30, 60, 90, 180, or 365 days.
 
 ## Organization performance
@@ -40,7 +40,7 @@ The **[!UICONTROL Overview]** tab summarizes outbound results. Click on any of t
 
 The **[!UICONTROL Emails]** tab reports on email volume and effectiveness:
 
-* **Tiles**: Open rate and click rate, shown by default so that performance is comparable across campaigns of different volume. Select the toggle to view raw counts of emails sent, opened, clicked, and replied to instead.
+* **Tiles**: Open rate and click rate, shown by default so that performance is comparable across campaigns of different volume. To view raw counts of emails sent, opened, clicked, and replied to instead, select the toggle.
 * **Weekly email trend chart**: Email activity by week.
 * Per-representative email performance table.
 
@@ -58,7 +58,7 @@ The **[!UICONTROL Tasks]** tab reports on manual outreach:
 
 **[!UICONTROL Campaign Performance]** reports on outbound results by Outbound Workflow campaign:
 
-* **KPI tiles**: Active prospects, open rate, click rate, reply rate, and meetings booked. The system shows open and click rate by default so that performance is comparable across campaigns of different volume. Select the toggle to view raw counts instead.
+* **KPI tiles**: Active prospects, open rate, click rate, reply rate, and meetings booked. The system shows open and click rate by default so that performance is comparable across campaigns of different volume. To view raw counts instead, select the toggle.
 * **Campaign metrics trend chart**: Campaign KPIs over the selected time period.
 * **[!UICONTROL Campaigns]** table: Email, meeting, call, and LinkedIn message activity for each campaign. To see representative-level detail for a campaign, expand its row.
 
