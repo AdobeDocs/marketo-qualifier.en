@@ -7,7 +7,7 @@ product_v2:
 usetq: true
 type: Documentation
 mini-toc-levels: 2
-git-repo: https://github.com/AdobeDocs/sales-qualifier.en
+git-repo: https://github.com/AdobeDocs/marketo-qualifier.en
 index: true
 ---
 
