@@ -3,17 +3,23 @@ title: Admin settings
 description: Learn how to manage CRM fields, activity synchronization, email opt-out, and other [!DNL Adobe Marketo Qualifier] administration settings.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
-TQID: 'https://experienceleague.adobe.com/vbtO6I67ZEaZz3oio9InNErvq5D0wjbRxyDZpTq8Lzo'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: CX Enterprise
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-    internal-label: Integrations
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-    internal-label: Administration
-
 internal-label: Administration
+autotag-review: '2026-10-08T17:58:28.029Z'
+TQID: 'https://experienceleague.adobe.com/2eccZWj1XY7qP20n6GcnBe6PZwNkp0ALhZfOhljwZF8'
+product_v2:
+  - id: d98caee2-fd67-486e-9513-36435358ebff
+    internal-label: Sales Qualifier
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+    internal-label: Customer profiles
 ---
 
 # Admin settings
@@ -134,7 +140,7 @@ Each uploaded document also displays its processing status, such as **[!UICONTRO
 
 When the playbook is ready, representatives can use it in two places:
 
-* **Outbound email prompts**—In a touchpoint prompt, name the document and describe the context to use. For example, enter `Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`. See [Generate and review touchpoints](outbound-workflows.md#step-3-generate-and-review-touchpoints).
+* **Outbound email prompts**—In a touchpoint prompt, name the document and describe the context to use. For example, enter `Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`. See [Configure touchpoints](outbound-workflows.md#step-3-generate-and-review-touchpoints).
 * **AI Chat**: Refer to the Knowledge Center in your question. For example, enter `From the Knowledge Center, help me position our security solution for ABC Corp before tomorrow's call`. See [AI Chat](ai-assistant.md).
 
 In both cases, the generated content reflects the messaging in your playbook rather than generic research.
@@ -148,7 +154,7 @@ In both cases, the generated content reflects the messaging in your playbook rat
 
 The settings save automatically.
 
-When a prospect selects the link, Marketo Qualifier stops sending emails to that prospect and synchronizes the opt-out status to the connected CRM.
+When a prospect selects the link, Marketo Qualifier stops sending emails to that prospect and synchronizes the opt-out status to the connected CRM. Marketo Qualifier also recognizes clear opt-out requests in a prospect's email reply, such as "please stop emailing me" or "unsubscribe," and marks the prospect as opted out automatically. The same **[!UICONTROL Opted out]** status and badge apply, and no further touchpoints are sent. No additional setup is needed. Replies that do not clearly ask to stop, such as "not right now," are not treated as opt-outs. See [Opt-out requests in replies](outbound-workflows.md#opt-out-requests-in-replies).
 
 ## Reference: sample API parameters
 

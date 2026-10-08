@@ -3,12 +3,11 @@ title: Accounts in Adobe Marketo Qualifier
 description: Learn how to review account intelligence in Adobe Marketo Qualifier, including AI research, recent news, opportunities, and top engaged contacts, to prioritize outreach.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
+autotag-review: '2026-10-08T17:56:44.977Z'
+TQID: 'https://experienceleague.adobe.com/MQxeaEGw7q8rv57xKg1f-3LahWx1laiawyvaY3n6Ri8'
 product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: CX Enterprise
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-    internal-label: Integrations
+  - id: d98caee2-fd67-486e-9513-36435358ebff
+    internal-label: Sales Qualifier
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
