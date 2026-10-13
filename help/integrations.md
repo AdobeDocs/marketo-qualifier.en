@@ -4,8 +4,8 @@ description: Learn how to connect Outlook, manage CRM connections, map inbound f
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User, Admin
 product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: CX Enterprise
+  - id: d98caee2-fd67-486e-9513-36435358ebff
+    internal-label: Sales Qualifier
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
     internal-label: Integrations
@@ -188,7 +188,7 @@ The opt-out setting appends an unsubscribe footer to every outbound email. Stand
 
 The setting and template save automatically.
 
-When a prospect selects the link, Marketo Qualifier stops sending emails to that prospect and syncs the opt-out status to the connected CRM.
+When a prospect selects the link, Marketo Qualifier stops sending emails to that prospect and syncs the opt-out status to the connected CRM. Marketo Qualifier also recognizes clear opt-out requests in a prospect's email reply, such as "please stop emailing me" or "unsubscribe," and marks the prospect as opted out automatically. The same **[!UICONTROL Opted out]** status and badge apply, and no further touchpoints are sent. No additional setup is needed. Replies that do not clearly ask to stop, such as "not right now," are not treated as opt-outs. See [Opt-out requests in replies](outbound-workflows.md#opt-out-requests-in-replies).
 
 ## CRM access scope
 

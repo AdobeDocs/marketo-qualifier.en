@@ -4,8 +4,8 @@ description: Learn how to connect Marketo to Adobe Marketo Qualifier so represen
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: CX Enterprise
+  - id: d98caee2-fd67-486e-9513-36435358ebff
+    internal-label: Sales Qualifier
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
     internal-label: Integrations

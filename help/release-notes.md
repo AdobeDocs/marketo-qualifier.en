@@ -6,6 +6,16 @@ role: User
 ---
 # [!DNL Adobe Marketo Qualifier] release notes
 
+## 10-08-2026
+
+This release includes:
+
+* Reuse an Outbound Workflow or change the touchpoints of a running workflow, duplicate it and edit the copy. The copy starts as a private draft with no prospects, and the original workflow is unchanged. [Learn more](outbound-workflows.md#duplicate-an-outbound-workflow).
+* Configure Outbound Workflows in a compact layout with navigation between the goal, targeting, touchpoints, and settings. [Learn more](outbound-workflows.md#create-an-outbound-workflow).
+* Clear opt-out requests in email replies are recognized automatically. The prospect is marked as opted out, and no further touchpoints are sent. [Learn more](outbound-workflows.md#opt-out-requests-in-replies).
+* Prepare for meetings with a single brief that combines web research and product-specific customer case studies, with talking points ranked by relevance and sources identified. [Learn more](prospects.md#generate-meeting-prep).
+* Generated emails are checked against quality guidelines and rewritten when needed before you review them. You still review, edit, and approve every email before it is sent. [Learn more](outbound-workflows.md#review-and-refine-generated-emails).
+
 ## 09-22-2026
 
 This release includes:

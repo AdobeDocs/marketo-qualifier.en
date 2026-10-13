@@ -5,8 +5,8 @@ feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/zf2H5rq1JlIT26LqLPMrm2Mq3tSIrLOiTEw6BXb1w2U'
 product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: CX Enterprise
+  - id: d98caee2-fd67-486e-9513-36435358ebff
+    internal-label: Sales Qualifier
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
     internal-label: Integrations
@@ -102,8 +102,12 @@ To open a prospect's profile, select the prospect. Review the signals that matte
 
 In addition to the standing AI person summary, you can generate meeting prep tailored to a specific upcoming call from the **[!UICONTROL Meeting research]** tab, next to **[!UICONTROL Account research]**.
 
+Meeting prep combines web research about the prospect and their company with evidence from case studies about peer customers who use the product you are selling. Case-study talking points can include measurable customer results. The sources are combined into one brief, with talking points ranked by relevance. Each talking point identifies whether it comes from case studies, web research, or both. If no relevant case-study evidence is available, meeting prep uses web research.
+
 * **Goal-based**—If the prospect is enrolled in a running Outbound Workflow, select it. The prep aligns to that Outbound Workflow's goal, such as booking a meeting or re-engaging the prospect.
 * **Custom prompt**—Enter what you want to prepare for, for example `Focus on renewal risk` or `Prepare for a technical deep dive with their IT lead`. The prep matches your prompt. The custom prompt option is available whenever the prospect is not in a running Outbound Workflow.
+
+The brief continues to follow the Outbound Workflow goal or custom prompt you choose. How you generate meeting prep does not change.
 
 >[!MORELIKETHIS]
 >

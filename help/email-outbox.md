@@ -4,8 +4,8 @@ description: Learn how to review the emails Adobe Marketo Qualifier has sent on 
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: CX Enterprise
+  - id: d98caee2-fd67-486e-9513-36435358ebff
+    internal-label: Sales Qualifier
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
