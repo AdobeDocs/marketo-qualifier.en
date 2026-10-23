@@ -6,6 +6,12 @@ role: User
 ---
 # [!DNL Adobe Marketo Qualifier] release notes
 
+## Upcoming release
+
+* Find and prioritize the right accounts and leads with Smart audience (Beta). Describe the accounts you want in plain language, add CRM data and growth signals, review scored leads, and add them to an Outbound Workflow. [Learn more](smart-audience.md).
+* Filter contacts by account fields, alongside contact and opportunity fields, to find the right contacts and target Outbound Workflows more precisely. [Learn more](prospects.md#filter-and-find-prospects).
+* Contacts show their associated account and owner name, and a prospect's page now shows 90 days of marketing activity, up from 30. [Learn more](prospects.md#review-prospect-details).
+
 ## 10-08-2026
 
 This release includes:

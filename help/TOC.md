@@ -9,6 +9,7 @@ user-guide-description: Learn how to use [!DNL Adobe Marketo Qualifier] to autom
 + [Get started](getting-started.md)
 + [Prospects](prospects.md)
 + [Accounts](accounts.md)
++ [Smart audience (Beta)](smart-audience.md)
 + [Outbound Workflows](outbound-workflows.md)
 + [Email Outbox](email-outbox.md)
 + [Tasks](tasks.md)

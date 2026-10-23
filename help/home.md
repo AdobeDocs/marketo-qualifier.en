@@ -28,6 +28,7 @@ The app is part of the [!DNL Marketo] product family, alongside [!DNL Marketo En
 ## What you can do in [!DNL Marketo Qualifier]
 
 * **Prioritize prospects and accounts** with AI-generated activity summaries and signal-based prioritization.
+* **Build target lists with [Smart audience (Beta)](smart-audience.md)** by describing accounts in plain language, adding CRM data and growth signals, and reviewing scored leads for an Outbound Workflow.
 * **Build goal-driven Outbound Workflows** in which AI proposes a cadence and drafts personalized emails for each prospect.
 * **Process outreach in one queue** for phone calls, LinkedIn InMails, and email reviews.
 * **Book meetings automatically** by connecting your calendar and inserting a personal booking link into your cadence.
@@ -74,6 +75,16 @@ Accounts
 Prioritize outreach with account-level pipeline and engagement data.
 
 [Accounts](accounts.md)
+:::
+
+:::card
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+
+Smart audience (Beta)
+
+Build and prioritize account and lead lists, then add selected leads to an Outbound Workflow.
+
+[Smart audience (Beta)](smart-audience.md)
 :::
 
 :::card

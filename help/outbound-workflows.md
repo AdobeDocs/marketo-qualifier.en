@@ -89,6 +89,8 @@ Describe your ideal prospect in natural language. For example, enter `Hot leads 
 
 Targeting can use activity type, score, rating, and other available attributes. Combine criteria with [!DNL AND] or [!DNL OR], and use operators such as equals, contains, greater than, less than, and between.
 
+For Salesforce and Microsoft Dynamics 365, targeting can also combine account, contact, and opportunity fields that an administrator makes filterable in [inbound mapping](integrations.md#map-crm-fields-inbound-mapping). For example, combine a contact's role with the industry of their associated account and the stage of an opportunity to target the right contacts.
+
 ### Automatically enroll prospects from Marketing Highlights
 
 An Outbound Workflow can evaluate live Marketing Highlights activity against its targeting criteria. When activity matches, [!DNL Marketo Qualifier] resolves the prospect's CRM owner by email and enrolls the prospect only in an eligible workflow that belongs to that representative.
@@ -157,6 +159,8 @@ An administrator configures the opt-out footer globally, which applies to outbou
 ### Add prospects and start email generation {#step-5-add-prospects-and-start-email-generation}
 
 After saving, add prospects from the selection view. The targeting filters you configured are applied.
+
+You can also add leads to an existing Outbound Workflow from a [Smart audience (Beta) list](smart-audience.md#add-leads-to-an-outbound-workflow). Review the selected leads and workflow before confirming. Adding leads does not replace the email review and approval steps described below.
 
 1. Review the list.
 

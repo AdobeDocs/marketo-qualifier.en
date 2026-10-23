@@ -74,14 +74,16 @@ After the CRM is connected, select **[!UICONTROL Manage]** for the connection an
 
    Each field row displays its **[!UICONTROL Display name]**, **[!UICONTROL Field name]**, and **[!UICONTROL Data type]**.
 
-1. Turn on **[!UICONTROL Filterable]** for each prospect, contact, or opportunity field that you want to make available as a filter on the **[!UICONTROL Prospects]** list.
+1. Turn on **[!UICONTROL Filterable]** for each prospect, contact, account, or opportunity field that you want to make available as a filter on the **[!UICONTROL Prospects]** list and in [Outbound Workflow targeting](outbound-workflows.md#step-2-configure-targeting-filters).
 1. Preview the section and select **[!UICONTROL Add]**.
 
 Mapped fields appear in the corresponding areas of Marketo Qualifier:
 
 * Prospect fields appear on the **[!UICONTROL Person]** tab.
-* Account fields appear on the **[!UICONTROL Account]** tab.
+* Account fields appear on the **[!UICONTROL Account]** tab. In a section with the **[!UICONTROL Accounts]** entity type, make fields filterable so that representatives can filter contacts by their associated account's attributes, such as industry, region, or account type.
 * Opportunity fields appear in the **[!UICONTROL Account Opportunity]** section. Filterable opportunity fields also appear as their own columns in **[!UICONTROL My Opportunity Contacts]**, with labels such as **[!UICONTROL Stage (Opportunity)]** to distinguish them from contact fields.
+
+Account-field filtering is available for Salesforce and Microsoft Dynamics 365. Representatives can combine filterable account, contact, and opportunity fields to find contacts and define Outbound Workflow targeting criteria.
 
 ## Configure activity sync (outbound mapping)
 
