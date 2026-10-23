@@ -19,6 +19,8 @@ topic_v2:
 
 The account view combines AI-generated research, recent news, open opportunities, pipeline value, and engaged contacts. Use this information to understand and prioritize an account before you reach out.
 
+To find and prioritize many accounts at once, use [Smart audience (Beta)](smart-audience.md). Build an account list, refine it with CRM data and growth signals, and find leads to add to an Outbound Workflow.
+
 ## Open an account
 
 Open an account from the profile of a prospect associated with it.
@@ -62,7 +64,7 @@ Use the buttons below the overview to switch between account views. The availabl
 | **[!UICONTROL Top Members]** | The account's top engaged contacts, ranked by engagement. Each contact shows their job title, email address, engagement score, and urgency indicator. |
 | **[!UICONTROL Intent data]** | Buying intent signals for the account, such as the products and topics the account is researching. |
 | **[!UICONTROL Account Team Members]** | People assigned to the account, with their email, job title, territory, and product group. |
-| **[!UICONTROL CRM fields]** | Account fields imported from your CRM, as configured in inbound mapping. See [Integrations](integrations.md#map-crm-fields-inbound-mapping). |
+| **[!UICONTROL CRM fields]** | Account fields imported from your CRM, as configured in inbound mapping. Fields that an administrator makes filterable can also be used to filter contacts by their associated account and define Outbound Workflow targeting criteria. See [Integrations](integrations.md#map-crm-fields-inbound-mapping). |
 
 From the **[!UICONTROL Top Members]** view, take either of these actions for a contact:
 
