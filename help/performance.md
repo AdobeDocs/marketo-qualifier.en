@@ -6,8 +6,22 @@ role: User
 TQID: 'https://experienceleague.adobe.com/ofBw7JHKkkQaPOeUZ6rreLDAhAfineLveBeVYK-CerQ'
 product_v2:
   - id: d98caee2-fd67-486e-9513-36435358ebff
-    internal-label: Sales Qualifier
-Outbound Workflows    internal-label: Insights
+    internal-label: Marketo Qualifier
+feature_v2:
+  - id: 9c53860b-cccc-5459-8aaa-1ce63e824212
+    internal-label: Reporting
+subfeature_v2:
+  - id: 273c6647-b67a-5ded-864b-43b39292aeeb
+    internal-label: Outbound performance
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 ---
 
 # Outbound performance in Adobe Marketo Qualifier

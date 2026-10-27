@@ -3,6 +3,12 @@ title: "[!DNL Adobe Marketo Qualifier] release notes"
 description: Learn what is new in [!DNL Adobe Marketo Qualifier].
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
+product_v2:
+  - id: d98caee2-fd67-486e-9513-36435358ebff
+    internal-label: Marketo Qualifier
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 ---
 # [!DNL Adobe Marketo Qualifier] release notes
 
