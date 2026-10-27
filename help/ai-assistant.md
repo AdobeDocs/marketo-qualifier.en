@@ -60,7 +60,7 @@ Use AI Chat for these types of tasks:
 
 ## Ask AI Chat across your connected data
 
-AI Chat can answer questions across your [!DNL Marketo Qualifier], CRM, [!DNL Marketo], [!DNL Marketo Optimizer], and company intelligence data. Ask a question in plain language to look up information or retrieve context. AI Chat reads and reports on your data; it does not create, edit, or launch anything.
+AI Chat can answer questions across your [!DNL Marketo Qualifier], CRM, [!DNL Marketo], [!DNL Marketo Optimizer], and company intelligence data. Ask a question in plain language to look up information or retrieve context. These connected-data lookups read and report on your data; they do not create, edit, or launch programs or campaigns.
 
 Here are some sample prompts. The more specific you are in your prompt, the more focused the results are.
 
@@ -108,7 +108,8 @@ Company intelligence:
 
 ### Current scope and limits
 
-* AI Chat reads and reports on your data. It does not create, edit, or launch anything. For example, it does not create a program, launch a campaign, or edit a list.
+* Connected-data lookups read and report on your data. They do not create a program, launch a campaign, or edit a CRM record.
+* In [Smart audience (Beta)](smart-audience.md), chat supports actions on the audience list, including saving a list, adding information columns, filtering and prioritizing accounts and leads, and adding selected leads to an existing Outbound Workflow. This does not write to the CRM or replace email review and approval.
 * AI Chat looks up information; it is not a reporting tool. It does not build [!DNL Marketo]-style analytics or trends over time, such as email health for the quarter or a list of leads created in the last 10 days. Use native [!DNL Marketo] reporting for these tasks.
 
 ## Ground answers in your playbook

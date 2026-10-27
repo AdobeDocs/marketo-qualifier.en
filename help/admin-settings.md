@@ -4,6 +4,7 @@ description: Learn how to manage CRM fields, activity synchronization, email opt
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 internal-label: Administration
+autotag-review: '2026-10-08T17:58:28.029Z'
 TQID: 'https://experienceleague.adobe.com/2eccZWj1XY7qP20n6GcnBe6PZwNkp0ALhZfOhljwZF8'
 product_v2:
   - id: d98caee2-fd67-486e-9513-36435358ebff
@@ -79,14 +80,16 @@ After the CRM is connected, select **[!UICONTROL Manage]** for the connection an
 
    Each field row displays its **[!UICONTROL Display name]**, **[!UICONTROL Field name]**, and **[!UICONTROL Data type]**.
 
-1. Turn on **[!UICONTROL Filterable]** for each prospect, contact, or opportunity field that you want to make available as a filter on the **[!UICONTROL Prospects]** list.
+1. Turn on **[!UICONTROL Filterable]** for each prospect, contact, account, or opportunity field that you want to make available as a filter on the **[!UICONTROL Prospects]** list and in [Outbound Workflow targeting](outbound-workflows.md#step-2-configure-targeting-filters).
 1. Preview the section and select **[!UICONTROL Add]**.
 
 Mapped fields appear in the corresponding areas of Marketo Qualifier:
 
 * Prospect fields appear on the **[!UICONTROL Person]** tab.
-* Account fields appear on the **[!UICONTROL Account]** tab.
+* Account fields appear on the **[!UICONTROL Account]** tab. In a section with the **[!UICONTROL Accounts]** entity type, make fields filterable so that representatives can filter contacts by their associated account's attributes, such as industry, region, or account type.
 * Opportunity fields appear in the **[!UICONTROL Account Opportunity]** section. Filterable opportunity fields also appear as their own columns in **[!UICONTROL My Opportunity Contacts]**, with labels such as **[!UICONTROL Stage (Opportunity)]** to distinguish them from contact fields.
+
+Account-field filtering is available for Salesforce and Microsoft Dynamics 365. Representatives can combine filterable account, contact, and opportunity fields to find contacts and define Outbound Workflow targeting criteria.
 
 ## Configure activity sync (outbound mapping)
 
@@ -145,7 +148,7 @@ Each uploaded document also displays its processing status, such as **[!UICONTRO
 
 When the playbook is ready, representatives can use it in two places:
 
-* **Outbound email prompts**—In a touchpoint prompt, name the document and describe the context to use. For example, enter `Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`. See [Generate and review touchpoints](outbound-workflows.md#step-3-generate-and-review-touchpoints).
+* **Outbound email prompts**—In a touchpoint prompt, name the document and describe the context to use. For example, enter `Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`. See [Configure touchpoints](outbound-workflows.md#step-3-generate-and-review-touchpoints).
 * **AI Chat**: Refer to the Knowledge Center in your question. For example, enter `From the Knowledge Center, help me position our security solution for ABC Corp before tomorrow's call`. See [AI Chat](ai-assistant.md).
 
 In both cases, the generated content reflects the messaging in your playbook rather than generic research.
@@ -159,7 +162,7 @@ In both cases, the generated content reflects the messaging in your playbook rat
 
 The settings save automatically.
 
-When a prospect selects the link, Marketo Qualifier stops sending emails to that prospect and synchronizes the opt-out status to the connected CRM.
+When a prospect selects the link, Marketo Qualifier stops sending emails to that prospect and synchronizes the opt-out status to the connected CRM. Marketo Qualifier also recognizes clear opt-out requests in a prospect's email reply, such as "please stop emailing me" or "unsubscribe," and marks the prospect as opted out automatically. The same **[!UICONTROL Opted out]** status and badge apply, and no further touchpoints are sent. No additional setup is needed. Replies that do not clearly ask to stop, such as "not right now," are not treated as opt-outs. See [Opt-out requests in replies](outbound-workflows.md#opt-out-requests-in-replies).
 
 ## Reference: sample API parameters
 

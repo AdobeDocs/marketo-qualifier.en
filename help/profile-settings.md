@@ -3,7 +3,7 @@ title: Configure profile settings
 description: Learn how to configure your email connection, signature, and calendar availability in Adobe Marketo Qualifier profile settings.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
-TQID: 'https://experienceleague.adobe.com/juP3sddkmc-nSTcTEKGWolbCwNWDgSA0yr6XK1X-w94'
+TQID: 'https://experienceleague.adobe.com/YsrBduYA7jKhgxttexqMBBpgDIq23s6wUb4Wp6y6h3g'
 product_v2:
   - id: d98caee2-fd67-486e-9513-36435358ebff
     internal-label: Marketo Qualifier

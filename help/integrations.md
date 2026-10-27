@@ -150,9 +150,11 @@ Inbound mapping controls which CRM fields Marketo Qualifier imports and where th
 
 1. Enter a **[!UICONTROL Section name]** and an optional **[!UICONTROL Description]**. Then, select **[!UICONTROL Next]**.
 1. On the **[!UICONTROL Add field]** step, to import CRM fields, search for and select them. Then, to continue, select **[!UICONTROL Next]**. Each field shows its **[!UICONTROL Display name]**, **[!UICONTROL Field name]**, and **[!UICONTROL Data type]**.
-1. For **[!UICONTROL Prospects]**, **[!UICONTROL Contacts]**, and **[!UICONTROL Opportunities]** sections, turn on **[!UICONTROL Filterable]** for each field that representatives need on the [Prospects](prospects.md) list.
+1. For **[!UICONTROL Prospects]**, **[!UICONTROL Contacts]**, **[!UICONTROL Accounts]**, and **[!UICONTROL Opportunities]** sections, turn on **[!UICONTROL Filterable]** for each field that representatives need on the [Prospects](prospects.md#filter-and-find-prospects) list or in [Outbound Workflow targeting](outbound-workflows.md#step-2-configure-targeting-filters).
 
    A field cannot be made filterable if its data type does not support filtering or if it is already used in another section.
+
+   Filterable account fields let representatives filter contacts by their associated account's attributes, such as industry, region, or account type. They can combine account, contact, and opportunity filters to define which contacts are eligible for an Outbound Workflow. Account-field filtering is available for Salesforce and Microsoft Dynamics 365.
 
    In **[!UICONTROL My Opportunity Contacts]**, filterable opportunity fields appear as separate columns with labels such as **[!UICONTROL Stage (Opportunity)]**. The suffix distinguishes opportunity attributes from fields on the associated contact.
 
@@ -195,7 +197,7 @@ The opt-out setting appends an unsubscribe footer to every outbound email. Stand
 
 The setting and template save automatically.
 
-When a prospect selects the link, Marketo Qualifier stops sending emails to that prospect and syncs the opt-out status to the connected CRM.
+When a prospect selects the link, Marketo Qualifier stops sending emails to that prospect and syncs the opt-out status to the connected CRM. Marketo Qualifier also recognizes clear opt-out requests in a prospect's email reply, such as "please stop emailing me" or "unsubscribe," and marks the prospect as opted out automatically. The same **[!UICONTROL Opted out]** status and badge apply, and no further touchpoints are sent. No additional setup is needed. Replies that do not clearly ask to stop, such as "not right now," are not treated as opt-outs. See [Opt-out requests in replies](outbound-workflows.md#opt-out-requests-in-replies).
 
 ## CRM access scope
 

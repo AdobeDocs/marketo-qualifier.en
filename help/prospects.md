@@ -35,7 +35,7 @@ To view the leads and contacts that you can access, select **[!UICONTROL Prospec
 ![Prospects table displaying lead status and last activity for prospect management](./assets/prospects.png){width="800" zoomable="yes"}
 
 * **[!UICONTROL Leads]** Leads assigned to you in the connected CRM.
-* **[!UICONTROL Contacts]** Contacts assigned to you in the connected CRM.
+* **[!UICONTROL Contacts]** Contacts assigned to you in the connected CRM, with their associated account. Contact details also include the owner's name. These details are available for Salesforce and Microsoft Dynamics 365.
 * **[!UICONTROL Marketing Highlights]** Prospects with live Marketo activity, such as email opens or clicks.
 * **[!UICONTROL People list]** Prospects that you import or add manually.
 
@@ -87,6 +87,8 @@ Administrators can also make mapped CRM fields available as filters. In **[!UICO
 
 In **[!UICONTROL My Opportunity Contacts]**, you can also filter contacts by fields from their associated opportunities, such as stage, type, and close date. Opportunity fields have labels such as **[!UICONTROL Stage (Opportunity)]**, which distinguishes them from contact fields. Your administrator controls which opportunity fields are available as filters.
 
+You can also filter contacts by fields from their associated account, such as industry, region, or account type. Your administrator chooses which account fields are filterable. Combine account, contact, and opportunity filters to find, for example, contacts in a specific role at accounts in a specific industry. Account-field filtering is available for Salesforce and Microsoft Dynamics 365, and the same fields can be used in [Outbound Workflow targeting](outbound-workflows.md#step-2-configure-targeting-filters).
+
 ### Filter by Marketing Highlights
 
 Review and prioritize prospects by their live [!DNL Marketo] engagement, such as email activity, web visits, and form fills. Engagement appears in near real time, as it happens.
@@ -105,16 +107,20 @@ Marketing Highlights is available in all production regions. An administrator co
 To open a prospect's profile, select the prospect. Review the signals that matter before you reach out:
 
 * **AI person summary**—An AI-written snapshot of the lead or contact and their recent engagement. Use the summary to understand the person quickly before reviewing individual activities. AI person summaries are available on instances running [!DNL Marketo Optimizer] Prime or Ultimate.
-* **Activity list**—A chronological list of activities and recent behavior.
-* **Timeline view**—A visual timeline of engagement across channels.
+* **Activity list**—A chronological list that shows the past 90 days of marketing activity.
+* **Timeline view**—A visual timeline that shows the past 90 days of marketing engagement across channels.
 * **Viewed content**—Web pages and assets that the prospect viewed. To open an item, select it.
 
 ### Generate meeting prep
 
 In addition to the standing AI person summary, you can generate meeting prep tailored to a specific upcoming call from the **[!UICONTROL Meeting research]** tab, next to **[!UICONTROL Account research]**.
 
+Meeting prep combines web research about the prospect and their company with evidence from case studies about peer customers who use the product you are selling. Case-study talking points can include measurable customer results. The sources are combined into one brief, with talking points ranked by relevance. Each talking point identifies whether it comes from case studies, web research, or both. If no relevant case-study evidence is available, meeting prep uses web research.
+
 * **Goal-based**—If the prospect is enrolled in a running Outbound Workflow, select it. The prep aligns to that Outbound Workflow's goal, such as booking a meeting or re-engaging the prospect.
 * **Custom prompt**—Enter what you want to prepare for, for example `Focus on renewal risk` or `Prepare for a technical deep dive with their IT lead`. The prep matches your prompt. The custom prompt option is available whenever the prospect is not in a running Outbound Workflow.
+
+The brief continues to follow the Outbound Workflow goal or custom prompt you choose. How you generate meeting prep does not change.
 
 >[!MORELIKETHIS]
 >

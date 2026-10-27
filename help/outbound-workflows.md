@@ -54,27 +54,27 @@ The following sections explain how to create an Outbound Workflow, review genera
 
 ## Create an Outbound Workflow
 
-The Outbound Workflow wizard has five steps: **[!UICONTROL Goal]**, **[!UICONTROL Targeting]**, **[!UICONTROL Generate touchpoints]**, **[!UICONTROL Settings]**, and **[!UICONTROL Add prospects]**. Your goal shapes the remaining steps.
+The compact configuration experience organizes workflow setup around the goal, targeting, touchpoints, and settings. Use the section navigation to move between them. After you save the workflow, add prospects to generate their emails.
 
 1. In the left navigation, select **[!UICONTROL Outbound Workflows]**.
 1. On the **[!UICONTROL Browse]** tab, select **[!UICONTROL + Create Outbound Workflow]** in the upper-right corner.
 
 Administrators can assign the Outbound Workflow to a teammate instead of themselves. Before launching the workflow, select **[!UICONTROL Assign User]** from the dropdown and choose the teammate.
 
-### Step 1: Define your goal
+### Define your goal {#step-1-define-your-goal}
 
 The goal defines the intended outcome and guides targeting, cadence, and email generation.
 
 1. To write your own goal, select **[!UICONTROL Start from scratch]**, or to use a saved template, select **[!UICONTROL Start from template]**.
 
 1. Select one of the **[!UICONTROL Recommended goals]** matched to your company. Each recommendation includes a short explanation of why it fits. To fill in the goal, select a recommendation. To browse the full set of recommendations, select **[!UICONTROL View all]**, or enter your own goal. You can also choose from the **[!UICONTROL Popular goals]** list.
-1. Select **[!UICONTROL Next: Targeting]**.
+1. Continue to targeting.
 
 State a specific outcome in the goal. For example, enter `Book a 15-minute discovery call with marketing leaders evaluating campaign automation` instead of `Promote campaign automation`.
 
 The AI preserves requirements in the goal exactly in the generated touchpoints. Include exact sentences, required opening or closing lines, named sessions and dates, or a specific structure when the generated content must preserve them.
 
-### Step 2: Configure targeting filters
+### Configure targeting filters {#step-2-configure-targeting-filters}
 
 Targeting filters define which prospects are eligible. When you add prospects later, only those prospects who match these filters appear in the selection list.
 
@@ -87,9 +87,11 @@ Describe your ideal prospect in natural language. For example, enter `Hot leads 
 1. Set values for the filter.
 1. Add more filters if you need to narrow the audience.
 
-1. Select **[!UICONTROL Next: Generate touchpoints]**.
+1. Continue to touchpoints.
 
 Targeting can use activity type, score, rating, and other available attributes. Combine criteria with [!DNL AND] or [!DNL OR], and use operators such as equals, contains, greater than, less than, and between.
+
+For Salesforce and Microsoft Dynamics 365, targeting can also combine account, contact, and opportunity fields that an administrator makes filterable in [inbound mapping](integrations.md#map-crm-fields-inbound-mapping). For example, combine a contact's role with the industry of their associated account and the stage of an opportunity to target the right contacts.
 
 ### Automatically enroll prospects from Marketing Highlights
 
@@ -104,9 +106,11 @@ Automatic enrollment follows this sequence:
 
 If another representative is already contacting the prospect, [!DNL Marketo Qualifier] displays a warning before duplicate outreach starts.
 
-### Step 3: Generate and review touchpoints
+### Configure touchpoints {#step-3-generate-and-review-touchpoints}
 
 After you configure targeting, AI analyzes the goal and targeting criteria, defines the cadence, and writes a prompt for each touchpoint. The cadence can include email, phone call, and LinkedIn InMail steps.
+
+The touchpoints use a sequence layout that makes the order of steps easy to scan.
 
 ![Touchpoints](assets/create-workflow-touchpoints.png){width="800" zoomable="yes"}
 
@@ -130,13 +134,13 @@ Set a touchpoint delay in days, hours, and minutes. Set the days, hours, and min
 
 If your organization has built a [Knowledge Center](admin-settings.md#knowledge-center) playbook, refer to it in the prompt. Name the document and describe the context to use. For example, enter `Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`.
 
-When the cadence and prompts are ready, select **[!UICONTROL Next: Settings]**.
+When the cadence and prompts are ready, continue to settings.
 
 Refine the touchpoint prompts before generating prospect emails. AI uses these prompts for every selected prospect.
 
-### Step 4: Configure Outbound Workflow settings
+### Configure Outbound Workflow settings {#step-4-configure-outbound-workflow-settings}
 
-The **[!UICONTROL Settings]** step controls how the Outbound Workflow runs.
+The **[!UICONTROL Settings]** section controls how the Outbound Workflow runs.
 
 ![Settings panel](assets/create-workflow-settings.png){width="800" zoomable="yes"}
 
@@ -148,15 +152,17 @@ The **[!UICONTROL Settings]** step controls how the Outbound Workflow runs.
 1. To stop follow-up touchpoints automatically once a prospect books a meeting, turn on **[!UICONTROL Meeting Booking Pause]**.
 1. Choose whether to use each prospect's time zone or the Outbound Workflow **[!UICONTROL Timezone]** for send timing. If you use the Outbound Workflow time zone, confirm that it matches your audience.
 1. Under **[!UICONTROL Permissions]**, keep **[!UICONTROL Private]** (the default) or select **[!UICONTROL Shared with everyone]**. For details, see [Share an Outbound Workflow](#share-an-outbound-workflow).
-1. Select **[!UICONTROL Save and add prospects]**.
+1. Select **[!UICONTROL Save and add prospects]** to open the prospect selection view.
 
 To revert the send window, time zone, days, follow-up and out-of-office rules, visibility, and suggestion cadence back to their defaults, turn on **[!UICONTROL Reset to default settings]**. The Outbound Workflow name is left unchanged.
 
 An administrator configures the opt-out footer globally, which applies to outbound emails independently of the Outbound Workflow settings. See [Configure global email opt-out](integrations.md#configure-global-email-opt-out).
 
-### Step 5: Add prospects and start email generation
+### Add prospects and start email generation {#step-5-add-prospects-and-start-email-generation}
 
-Saving opens the prospect selection view with the targeting filters from step 2 applied.
+After saving, add prospects from the selection view. The targeting filters you configured are applied.
+
+You can also add leads to an existing Outbound Workflow from a [Smart audience (Beta) list](smart-audience.md#add-leads-to-an-outbound-workflow). Review the selected leads and workflow before confirming. Adding leads does not replace the email review and approval steps described below.
 
 1. Review the list.
 
@@ -177,6 +183,15 @@ Emails can also be generated in the prospect's language, with correct greetings,
 ## Review and refine generated emails
 
 When generation finishes, the Outbound Workflow detail view prompts you to review the drafts. [!DNL Marketo Qualifier] does not send email until you approve it.
+
+Before a draft appears for review, [!DNL Marketo Qualifier] checks it against quality guidelines. If it falls short, the draft is rewritten using specific feedback and checked again. The same guidelines inform the first draft, so most emails meet them on the first pass. The checks ensure that:
+
+* The email body contains only the message for the prospect, without internal notes, reasoning, or source references.
+* A meeting request appears only when your calendar is connected in [Profile settings](profile-settings.md), a booking link is available, and the touchpoint prompt asks for a meeting request.
+* Bulleted lists are formatted correctly.
+* The email avoids common AI-sounding patterns, including em dashes, lists of three used for rhythm, "not just X, but Y" phrasing, and overused cliches.
+
+You still review, edit, and approve every email before it is sent. Reasoning, direct edits, and **[!UICONTROL Generate with AI]** work as before.
 
 1. In the Outbound Workflow detail view, select **[!UICONTROL Review drafts]** in the banner.
 1. The **[!UICONTROL Review touchpoints]** step has two tabs:
@@ -231,7 +246,7 @@ Each Outbound Workflow has a **[!UICONTROL Permissions]** setting. Outbound Work
 >
 >Sharing is permanent. After an Outbound Workflow is set to **[!UICONTROL Shared with everyone]**, it cannot be changed back to **[!UICONTROL Private]**.
 
-On a shared Outbound Workflow, teammates can enroll their own prospects. Each person can manage or pause only the prospects that they enrolled, including when using bulk actions. The Outbound Workflow owner alone can edit plan-level settings, including schedule, time zone, and cadence. These settings are read-only for teammates.
+On a shared Outbound Workflow, teammates can enroll their own prospects. Each person can manage or pause only the prospects that they enrolled, including when using bulk actions. The Outbound Workflow owner alone can edit plan-level settings, such as the send window and time zone. These settings are read-only for teammates. To change touchpoints on a running Outbound Workflow, duplicate it and edit the copy.
 
 When you enroll prospects in a shared Outbound Workflow, choose whether email is sent as the workflow owner or as each lead's assigned representative.
 
@@ -247,9 +262,23 @@ When a prospect replies with an out-of-office message, the Outbound Workflow han
 * **Automatic resume**: On by default. If the out-of-office reply includes a return date, the Outbound Workflow resumes the cadence on that date. If no return date is given, the Outbound Workflow resumes after a resume-after buffer that your team can configure.
 * **Manual options**: A rep can still select **[!UICONTROL Resume now]** or schedule a specific resume date. See [Manage existing Outbound Workflows](#manage-existing-outbound-workflows).
 
+### Opt-out requests in replies
+
+When a prospect replies with a clear request to stop receiving email, such as "please stop emailing me," "unsubscribe," "remove me from this list," or "take me off your list," [!DNL Marketo Qualifier] automatically marks the prospect as opted out. This is the same **[!UICONTROL Opted out]** status and badge as selecting the opt-out link, and no further touchpoints are sent. Any configured CRM status update works as it does for an opt-out link.
+
+Only clear requests count. For example, "I'm not the right person" or "not right now" is handled like any other reply, not as an opt-out. No setup is needed; reply opt-outs work alongside the opt-out link configured in [Admin Settings](admin-settings.md#configure-global-email-opt-out).
+
+## Duplicate an Outbound Workflow
+
+You can duplicate an Outbound Workflow that you created or that is shared with you. Duplicate it from the **[!UICONTROL Browse]** tab's Outbound Workflows list or from the workflow's detail view.
+
+The copy includes the original goal, targeting, touchpoints, and settings, but not its prospects. The copy starts as a **[!UICONTROL Draft]** with **[!UICONTROL Private]** permissions, so you can review and edit it before adding prospects or sharing it. The original workflow and its prospects are not affected.
+
+To change the touchpoints of a running Outbound Workflow, duplicate it and edit the copy. Add prospects to the copy; prospects already enrolled in the original continue on its cadence without interruption. Each workflow has its own results in [Outbound performance](performance.md).
+
 ## Manage existing Outbound Workflows
 
-On the **[!UICONTROL Outbound Workflows]** page, the **[!UICONTROL Browse]** tab lists every Outbound Workflow available to you. Each card shows the goal, configured touchpoints, and performance metrics. Use this view to monitor Outbound Workflows, review drafts, or add prospects.
+On the **[!UICONTROL Outbound Workflows]** page, the **[!UICONTROL Browse]** tab lists every Outbound Workflow available to you. Each card shows the goal, configured touchpoints, and performance metrics. Use this view to monitor Outbound Workflows, review drafts, add prospects, or duplicate a workflow.
 
 ## Email outbox
 
