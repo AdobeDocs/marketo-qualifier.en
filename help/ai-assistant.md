@@ -6,7 +6,13 @@ role: User
 TQID: 'https://experienceleague.adobe.com/LHCHAk0rsNwLsKFhKMlHaLL7xkkCEAKFNDMEonb2TdQ'
 product_v2:
   - id: d98caee2-fd67-486e-9513-36435358ebff
-    internal-label: Adobe Marketo Qualifier
+    internal-label: Marketo Qualifier
+feature_v2:
+  - id: ace0d1fc-8e69-4e6a-a442-37fc40985eea
+    internal-label: Account Qualification Agent
+subfeature_v2:
+  - id: 61dd0b55-ea2d-5210-8e27-63802e0f1d81
+    internal-label: AI chat
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User

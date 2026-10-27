@@ -4,20 +4,27 @@ description: Learn how to connect Outlook, manage CRM connections, map inbound f
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User, Admin
 product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: CX Enterprise
+  - id: d98caee2-fd67-486e-9513-36435358ebff
+    internal-label: Marketo Qualifier
 feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+  - id: da701e37-3227-4187-b68a-914277252a79
     internal-label: Integrations
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+  - id: f8f8b877-7295-5853-989f-e21f73bc94c4
     internal-label: Administration
+subfeature_v2:
+  - id: d2fe5f36-5653-5902-937c-9d3026104284
+    internal-label: CRM integrations
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-    internal-label: Customer experience
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-    internal-label: Security
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+    internal-label: Data integration
 ---
 
 # Integrations
