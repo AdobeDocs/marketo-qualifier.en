@@ -12,7 +12,7 @@ role_v2:
 ---
 # [!DNL Adobe Marketo Qualifier] release notes
 
-## Upcoming release
+## Nov 2026 release
 
 * Describe who you want to reach in plain language and turn it into CRM lead and contact filters, use every Leads and Contacts filter in Outbound Workflow targeting, and preview matching prospects before you save. [Learn more](outbound-workflows.md#step-2-configure-targeting-filters).
 * Filter prospects by several values at once in text fields such as Job title and Email, with up to five values per filter. [Learn more](prospects.md#filter-and-find-prospects).
