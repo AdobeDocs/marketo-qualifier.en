@@ -27,7 +27,7 @@ topic_v2:
 
 [!DNL Adobe Marketo Qualifier] is an AI-powered app that automates prospect qualification, outreach, and cross-channel buyer engagement for business development representatives (BDRs). The Account Qualification Agent analyzes your accounts and prospects, prioritizes those that are ready for the next step, and drafts personalized outreach based on your CRM data.
 
-The app is part of the [!DNL Marketo] product family, alongside [!DNL Marketo Engage], [!DNL Marketo Optimizer], and [!DNL Marketo Measure]. BDRs can use the browser and email plugins to access business intelligence directly within their CRM or Outlook.
+The app is part of the [!DNL Marketo] product family, alongside [!DNL Marketo Engage], [!DNL Marketo Optimizer], and [!DNL Marketo Measure]. BDRs can use the [CRM plugin](crm-plugin-setup.md) to access business intelligence directly within Salesforce or Microsoft Dynamics 365, and the email plugin to access it in Outlook.
 
 ## What you can do in [!DNL Marketo Qualifier]
 
@@ -139,6 +139,16 @@ Integrations
 Connect Salesforce or Microsoft Dynamics 365 and map your fields.
 
 [Integrations](integrations.md)
+:::
+
+:::card
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+
+CRM plugin setup
+
+Install the CRM plugin and configure Salesforce actions for Outbound Workflows and Marketo campaigns.
+
+[Embed Marketo Qualifier in your CRM](crm-plugin-setup.md)
 :::
 
 :::card

@@ -105,7 +105,7 @@ Completed, skipped, and canceled tasks are final. Their actions are no longer av
 
 ## Agent suggestions
 
-The **[!UICONTROL Agent suggestions]** tab lists prospects that match an Outbound Workflow's targeting criteria and are recommended for enrollment. To turn on recommendations, see [Outbound Workflows](outbound-workflows.md).
+The **[!UICONTROL Agent suggestions]** tab lists prospects recommended for enrollment using the full set of configured [Outbound Workflow targeting filters](outbound-workflows.md#step-2-configure-targeting-filters). To turn on recommendations, see [Outbound Workflows](outbound-workflows.md).
 
 To review a suggestion in the work panel, select it:
 
@@ -135,6 +135,8 @@ Messages about pricing, legal or security requirements, hostile responses, and u
 1. Open the reply suggestion and review the full thread and drafted response.
 1. To create another draft, edit the response, or select **[!UICONTROL Generate with AI]**.
 1. To send the response and continue the prospect's Outbound Workflow, select **[!UICONTROL Approve and send]**.
+
+You can also [review, edit, send, or reject AI draft replies](outbound-workflows.md#review-and-send-ai-draft-replies) from the Outbound Workflow's **[!UICONTROL Engaged Prospects]** view.
 
 ## Complete tasks from an Outbound Workflow
 

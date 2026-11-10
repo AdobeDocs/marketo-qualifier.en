@@ -78,20 +78,21 @@ The AI preserves requirements in the goal exactly in the generated touchpoints. 
 
 Targeting filters define which prospects are eligible. When you add prospects later, only those prospects who match these filters appear in the selection list.
 
-![Targeting filters](assets/create-workflow-targeting.png){width="800" zoomable="yes"}
+Describe the CRM leads or contacts you want to reach in plain language. For example, enter `Contacts with open opportunities closing in the next 30 days`, or use a built-in example prompt to get started. [!DNL Adobe Marketo Qualifier] converts the description into filters that you can review and edit before saving. If part of the description cannot be converted into a filter, it is flagged so that you can review the condition rather than unknowingly leave it out.
 
-Describe your ideal prospect in natural language. For example, enter `Hot leads at companies with 500 or more employees who requested a demo`. [!DNL Adobe Marketo Qualifier] converts the description into targeting criteria that you can review and refine.
+The filter builder uses the same experience as [Marketing Highlights filters](prospects.md#filter-by-marketing-highlights) on the Prospects page. Use it to add, edit, or clear conditions.
 
-1. To open the **[!UICONTROL Add a filter]** list, select the down arrow, then select a filter.
-
-1. Set values for the filter.
-1. Add more filters if you need to narrow the audience.
-
-1. Continue to touchpoints.
+1. Review the filters generated from your description, or select a filter to add a condition manually.
+1. Choose the operator and enter or select the values for each condition.
+1. Add, edit, or clear conditions to refine the audience.
+1. Select **[!UICONTROL Preview leads]** or **[!UICONTROL Preview contacts]** to see which prospects match.
+1. Review the preview and adjust the filters if needed before continuing to touchpoints.
 
 Targeting can use activity type, score, rating, and other available attributes. Combine criteria with [!DNL AND] or [!DNL OR], and use operators such as equals, contains, greater than, less than, and between.
 
-For Salesforce and Microsoft Dynamics 365, targeting can also combine account, contact, and opportunity fields that an administrator makes filterable in [inbound mapping](integrations.md#map-crm-fields-inbound-mapping). For example, combine a contact's role with the industry of their associated account and the stage of an opportunity to target the right contacts.
+Every filter from the **[!UICONTROL Leads]** and **[!UICONTROL Contacts]** lists can be used in targeting, including account fields, opportunity fields, Outbound Workflow status, and contact categories such as **[!UICONTROL My Opportunity Contacts]**. Administrators choose which CRM fields are filterable in [inbound mapping](integrations.md#map-crm-fields-inbound-mapping).
+
+All targeting filters are saved with the workflow and applied automatically when you add prospects. [Agent suggestions](tasks.md#agent-suggestions) use the same full set of filters, so recommended prospects match your targeting criteria.
 
 ### Automatically enroll prospects from Marketing Highlights
 
@@ -254,6 +255,25 @@ Use these filters to keep shared Outbound Workflows and results focused:
 
 * On **[!UICONTROL Engaged Prospects]** and **[!UICONTROL Performance]**, use **[!UICONTROL Enrolled by]** to filter prospects by the person who enrolled them. The filter defaults to prospects that you enrolled.
 * On the **[!UICONTROL Browse]** tab, use the sharing filter to select **[!UICONTROL Shared by me]**, **[!UICONTROL Shared with me]**, **[!UICONTROL Private]**, or **[!UICONTROL All]**.
+
+## Review and send AI draft replies
+
+When a prospect replies to an Outbound Workflow email, you can review, edit, and send an AI draft reply directly from the workflow's **[!UICONTROL Engaged Prospects]** view without switching to Tasks. For how the draft uses conversation context and which messages need a personal response, see [Reply to a prospect with an agent suggestion](tasks.md#reply-to-a-prospect-with-an-agent-suggestion).
+
+1. Open the Outbound Workflow and select **[!UICONTROL Engaged Prospects]**.
+1. Select the **[!UICONTROL AI draft reply to review]** tag next to a prospect.
+
+   The tag's info icon explains that the prospect replied and a draft is ready. You can also find the draft below the email it answers in the prospect's touchpoints, labeled **[!UICONTROL Reply to this email]**.
+
+1. Read the prospect's message, which appears above the suggested response.
+1. Edit the draft as needed.
+1. Select **[!UICONTROL Approve and send]** to send the reply, or **[!UICONTROL Reject reply]** to discard it.
+
+   A confirmation appears after either action.
+
+To open the full email conversation, select **[!UICONTROL View thread]**.
+
+Each draft shows its status: **[!UICONTROL Pending review]**, **[!UICONTROL Sent]**, **[!UICONTROL Rejected]**, or **[!UICONTROL Cancelled]**. Only the prospect's owner can approve or reject a draft. If a draft cannot be acted on, the buttons are unavailable and a message explains why.
 
 ## Out-of-office reply handling
 

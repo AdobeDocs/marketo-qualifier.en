@@ -14,6 +14,11 @@ role_v2:
 
 ## Upcoming release
 
+* Describe who you want to reach in plain language and turn it into CRM lead and contact filters, use every Leads and Contacts filter in Outbound Workflow targeting, and preview matching prospects before you save. [Learn more](outbound-workflows.md#step-2-configure-targeting-filters).
+* Filter prospects by several values at once in text fields such as Job title and Email, with up to five values per filter. [Learn more](prospects.md#filter-and-find-prospects).
+* Review, edit, and send AI draft replies to prospect replies directly from an Outbound Workflow, or reject drafts that do not fit. [Learn more](outbound-workflows.md#review-and-send-ai-draft-replies).
+* Install [!DNL Adobe Marketo Qualifier] in Salesforce or Microsoft Dynamics 365, and add prospects to Outbound Workflows or Marketo campaigns from Salesforce list views and record pages. [Learn more](crm-plugin-setup.md).
+* Get started faster with Smart audience (Beta): a guided walkthrough, quick-add options when you create an audience, and clearer lists with record counts, an Account column that stays in view, and color-coded scores. [Learn more](smart-audience.md).
 * Find and prioritize the right accounts and leads with Smart audience (Beta). Describe the accounts you want in plain language, add CRM data and growth signals, review scored leads, and add them to an Outbound Workflow. [Learn more](smart-audience.md).
 * Filter contacts by account fields, alongside contact and opportunity fields, to find the right contacts and target Outbound Workflows more precisely. [Learn more](prospects.md#filter-and-find-prospects).
 * Contacts show their associated account and owner name, and a prospect's page now shows 90 days of marketing activity, up from 30. [Learn more](prospects.md#review-prospect-details).
