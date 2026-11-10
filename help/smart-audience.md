@@ -14,6 +14,8 @@ Work in the list view with its grid, filters, and buttons, or use chat to descri
 
 The progress tracker at the top of each list shows three stages: **[!UICONTROL Build smart audience list]**, **[!UICONTROL Prioritize leads]**, and **[!UICONTROL Add to outbound workflow]**.
 
+The landing page includes an auto-playing example of the complete five-step flow, from describing accounts to adding leads to an Outbound Workflow. A **[!UICONTROL How it works]** walkthrough explains the journey step by step and opens automatically when you have no lists. You can skip the walkthrough and reopen it anytime by selecting **[!UICONTROL How it works]**.
+
 ## Before you begin
 
 Smart audience requires a connected Salesforce or Microsoft Dynamics 365 CRM. It reads CRM data live and does not write to the CRM. For connection instructions, see [Get started](getting-started.md#connect-your-crm).
@@ -25,7 +27,10 @@ You can create up to 100 lists. Each list holds up to 500 accounts and 2,000 lea
 Start with a description of the accounts you want to reach. Previewing does not save a list.
 
 1. Open **[!UICONTROL Smart audience]** and select **[!UICONTROL New smart audience]** or **[!UICONTROL Create list]**.
-1. In chat, describe the accounts you want. For example, enter `Find healthcare accounts with revenue over $50M`.
+1. Use the quick-add options and example prompts on the audience creation page to start your request, or describe the accounts you want in chat.
+
+   For example, enter `Find healthcare accounts with revenue over $50M`.
+
 1. Review the number of matching accounts and the sample in the preview.
 
 Your request can include these criteria:
@@ -54,6 +59,8 @@ Save the preview when it matches your intended audience.
 1. When the preview is ready, ask chat to save it as a list and give the list a name.
 1. Review the saved accounts on the **[!UICONTROL Accounts]** tab.
 
+Saved lists appear as cards with account, lead, and enrichment details to help you choose which list to open.
+
 You can rename a list from its page. To delete a list, open it and select **[!UICONTROL Delete smart audience list]**.
 
 >[!CAUTION]
@@ -78,7 +85,9 @@ To add growth signals, select **[!UICONTROL Enrich accounts]** in the list view 
 
 For example, enter `Which of these accounts have raised funding recently?` or `Which of these accounts have had layoffs?`.
 
-On large lists, adding a signal can take a few minutes. Follow the progress shown in the list, review each new column, and keep or discard it.
+On large lists, adding a signal can take a few minutes. Follow the progress shown in the list, review each new column, and keep or discard it. After adding an enrichment column, select **[!UICONTROL Show column]** to bring it into view. The column is briefly highlighted so that you can find it without changing the column order.
+
+The **[!UICONTROL Accounts]** and **[!UICONTROL Leads]** tabs show their record counts. The **[!UICONTROL Account]** column stays in view as you scroll horizontally through the list.
 
 To narrow and prioritize the accounts:
 
@@ -105,9 +114,13 @@ For a chat request, enter `Find VP and Director level people at these accounts`,
 
 Review the results on the **[!UICONTROL Leads]** tab. Each lead shows their name, title, account, email, owner, and score. Filter by seniority, whether an email address is available, minimum or maximum score, or whether the lead is in a workflow. The **[!UICONTROL Reasoning]** column explains why each lead is ranked where it is.
 
+If the **[!UICONTROL Leads]** tab is empty, follow its guidance to find leads for your shortlisted accounts.
+
 ### How scores work
 
 Scores range from 0 to 100. A higher score indicates a better fit and more readiness to engage. The same data produces the same score.
+
+Scores are color-coded to help stronger matches stand out. Review the numeric score and reasoning when comparing accounts or leads rather than relying on color alone.
 
 A score combines:
 

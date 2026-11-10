@@ -33,6 +33,8 @@ Connect Outlook to send emails, recognize prospect replies, and schedule meeting
 
 This article explains how to connect Outlook, manage a CRM connection, map fields, sync activities, and configure email opt-out. To connect a CRM for the first time, see [Get started](getting-started.md#connect-your-crm).
 
+To make Marketo Qualifier insights and actions available inside Salesforce or Microsoft Dynamics 365, see [Embed Marketo Qualifier in your CRM](crm-plugin-setup.md).
+
 >[!IMPORTANT]
 >
 >The Outlook connection is per representative. The CRM and compliance settings described later in this article apply to the entire organization. To access those organization-wide settings, you must belong to the `Marketo Qualifier` and `Marketo Qualifier Admins` user groups. Standard users can use the configured CRM data and filters but cannot change the settings.

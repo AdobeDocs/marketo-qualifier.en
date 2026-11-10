@@ -176,6 +176,8 @@ See [Map CRM fields (inbound mapping)](integrations.md#map-crm-fields-inbound-ma
 
 ## Next steps
 
+Administrators can optionally [install the CRM plugin](crm-plugin-setup.md) so that representatives can use Marketo Qualifier insights inside Salesforce or Microsoft Dynamics 365. In Salesforce, administrators can also add actions for Outbound Workflows and Marketo campaigns to Lead and Contact list views and record pages.
+
 >[!MORELIKETHIS]
 >
 >* [Prospects](prospects.md)

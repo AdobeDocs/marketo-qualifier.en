@@ -83,6 +83,8 @@ To narrow the list, select **[!UICONTROL Filter]**. You can filter by:
 * Source
 * Last updated
 
+On the **[!UICONTROL Leads]** and **[!UICONTROL Contacts]** lists, text filters such as **[!UICONTROL Job title]** and **[!UICONTROL Email]** accept up to five values with the contains operator. Type a value and press Enter, then add the next value. Results include prospects that match any of the values. For example, a job title filter that contains `manager` and `director` returns prospects whose title contains either word. This filtering is available for Salesforce and Microsoft Dynamics 365, and the same filters can be used in [Outbound Workflow targeting](outbound-workflows.md#step-2-configure-targeting-filters).
+
 Administrators can also make mapped CRM fields available as filters. In **[!UICONTROL Admin Settings]**, turn on **[!UICONTROL Filterable]** for each field that users use to find prospects. See [Map CRM fields](integrations.md#map-crm-fields-inbound-mapping).
 
 In **[!UICONTROL My Opportunity Contacts]**, you can also filter contacts by fields from their associated opportunities, such as stage, type, and close date. Opportunity fields have labels such as **[!UICONTROL Stage (Opportunity)]**, which distinguishes them from contact fields. Your administrator controls which opportunity fields are available as filters.
