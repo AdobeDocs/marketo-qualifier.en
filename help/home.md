@@ -148,7 +148,7 @@ CRM plugin setup
 
 Install the CRM plugin and configure Salesforce actions for Outbound Workflows and Marketo campaigns.
 
-[Embed Marketo Qualifier in your CRM](crm-plugin-setup.md)
+[Set up the CRM plugin](crm-plugin-setup.md)
 :::
 
 :::card

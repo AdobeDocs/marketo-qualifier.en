@@ -16,7 +16,7 @@ user-guide-description: Learn how to use [!DNL Adobe Marketo Qualifier] to autom
 + [Outbound performance](performance.md)
 + [Profile settings](profile-settings.md)
 + [Integrations](integrations.md)
-+ [CRM Connections](crm-plugin-setup.md)
++ [CRM plugin](crm-plugin-setup.md)
 + [Set up Marketing Highlights](marketing-highlights-setup.md)
 + [AI Chat](ai-assistant.md)
 + [Admin settings](admin-settings.md)
