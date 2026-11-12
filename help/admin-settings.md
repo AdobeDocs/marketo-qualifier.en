@@ -45,7 +45,7 @@ To configure CRM connections, field mapping, and activity synchronization, go to
 Marketo Qualifier works with your CRM in these ways:
 
 * **CRM MCP queries**—The Account Qualification Agent queries live CRM data so that answers and insights reflect the current state of your records.
-* **Embedded plugin**—The CRM plugin displays [!DNL Marketo Sales Insights] (MSI) insights and agentic data in your CRM. Use the plugin to add a prospect to [!DNL Marketo Qualifier]. For installation and Salesforce action setup, see [Embed Marketo Qualifier in your CRM](crm-plugin-setup.md).
+* **Embedded plugin**—The CRM plugin displays [!DNL Marketo Sales Insights] (MSI) insights and agentic data in your CRM. Use the plugin to add a prospect to [!DNL Marketo Qualifier]. For installation and Salesforce action setup, see [Set up the CRM plugin](crm-plugin-setup.md).
 * **Activity synchronization**—When an administrator turns on **[!UICONTROL Activity sync]**, outreach activities synchronize to the CRM and Marketo.
 
 ### Prioritize leads in the CRM plugin
